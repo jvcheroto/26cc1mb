@@ -1,6 +1,6 @@
 # Plano de Teste
 
-**AMAZON**
+**CASA & VIDEO**
 
 
 ## 1 - Introdução
