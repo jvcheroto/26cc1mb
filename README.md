@@ -1,51 +1,36 @@
 # Plano de Teste
 
-**Amazon**
-
-*versão x.x*
-
-## Histórico das alterações
-
-   Data    | Versão |    Descrição   | Autor(a)
------------|--------|----------------|-----------------
-dd/mm/aaaa |  x.x   | Release incial | Danielle Farias
+**AMAZON**
 
 
 ## 1 - Introdução
 
-Este documento descreve os requisitos a testar, os  tipos de testes definidos para cada iteração, os recursos de hardware e software a serem empregados e o cronograma dos testes ao longo do projeto. As seções referentes aos requisitos, recursos e cronograma servem para permitir ao gerente do projeto acompanhar a evolução dos testes.
+Este documento descreve o plano de testes para o site da Casa & Vídeo. O objetivo deste plano é garantir que todas as funcionalidades do site estejam funcionando corretamente, proporcionando uma experiência de compra satisfatória aos usuários.
 
-Com esse documento, você deve:
-- Identificar informações de projeto existentes e os componentes de software que devem ser testados.
+Este plano de testes abordará diferentes aspectos do site, incluindo navegação, funcionalidades de pesquisa, adição de produtos ao carrinho, processo de checkout, entre outros. Serão realizados testes manuais e automatizados para garantir uma cobertura abrangente dos cenários de uso do site.
+
+Com esse documento, identificaremos:
+- Informações de projeto existentes e os componentes de software que devem ser testados.
 - Listar os Requisitos a testar.
 - Recomendar e descrever as estratégias de teste a serem empregadas.
-- Identificar os recursos necessários e prover uma estimativa dos esforços de teste.
+- Recursos necessários e prover uma estimativa dos esforços de teste.
 - Listar os elementos resultantes do projeto de testes.
-
-Também é possível apresentar aqui o programa que será testado.
 
 ## 2 - Requisitos a Testar
 
-Esta seção deve conter os casos de uso e requisitos não funcionais identificados como objetos dos testes ao longo do desenvolvimento do projeto.
-Como, em geral, os requisitos a testar são obtidos diretamente dos requisitos do sistema, esta seção é concebida como opcional. Assim sendo, sempre que novos requisitos a testar, que não constem como requisitos do sistema, forem identificados ou, simplesmente, por questões de organização e clareza, esta seção deve ser preenchida.
-Dependendo das informações disponíveis, essa seção pode começar a ser preenchida já nas primeiras iterações do ciclo de vida a partir do documento de requisitos.
+Esta seção deve conter os casos de uso e requisitos funcionais identificados como objetos dos testes ao longo do desenvolvimento do projeto.
 
-Caso seja necessário, liste aqui os requisitos a testar subdivididos em casos de uso e requisitos não-funcionais.
+Os seguintes requisitos serão testados durante a execução deste plano:
 
-### Casos de uso:
+1. **Barra de Busca:**
+   - Testar a funcionalidade da barra de busca para garantir que os resultados sejam precisos e relevantes.
+   - Verificar se a busca retorna produtos correspondentes às palavras-chave inseridas.
+   - Testar a capacidade de filtrar os resultados da busca por categoria, preço, marca, etc.
 
-Identificador do caso de uso | Nome do caso de uso
------------------------------|---------------------
-id UC1                       |       nome UC1
-id UC2                       |       nome UC2
-
-### Requisitos não-funcionais:
-
-Identificador do requisito   | Nome do requisito
------------------------------|---------------------
-id req1                      |      nome req1
-id req2                      |      nome req2
-
+2. **Produtos por Categoria:**
+   - Testar as categorias para garantir que os usuários possam encontrar facilmente os produtos desejados.
+   - Verificar se cada categoria exibe uma lista de produtos relacionados de forma precisa e organizada.
+   - Testar a funcionalidade de filtragem dentro de cada categoria para refinar os resultados conforme as preferências do usuário.
 
 ## 3 - Tipos de teste
 
@@ -390,9 +375,6 @@ Se possível usar teste automatizado.
     </tr>
 </table>
 <br/>
-
-### 3.6 - Efeitos Sonoros
-
 
 ## 4 - Recursos
 
