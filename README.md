@@ -626,11 +626,9 @@ Esta seção deve descrever os recursos humanos (integrantes) e de ambiente de t
 
 ### 4.2 - Ambiente de teste - Software
 
-| Sistema Operacional   | Navegador(es)      |
-|-----------------------|--------------------|
-| Windows 11 Pro 64-bit | Google Chrome (x)  |
-|                       | Microsoft Edge ( ) |
-|                       | Mozilla Firefox ( )|
+| Sistema Operacional       | Navegador(es)                                      |
+|---------------------------|----------------------------------------------------|
+| Windows 11 Pro 64-bit     | Google Chrome (x), Microsoft Edge, Mozilla Firefox |
 
 
 ### 4.2 - Ferramenta de teste
