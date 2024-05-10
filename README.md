@@ -179,7 +179,7 @@ O Exploratory Testing nos permitiu identificar potenciais problemas na barra de 
             Objetivo
         </th>
         <th colspan="4">
-            Verificar se dados são mantidos após súbito desligamento do programa .
+            Verificar os itens buscados serão precisos
         </th>
     </tr>
     <tr>
@@ -187,7 +187,7 @@ O Exploratory Testing nos permitiu identificar potenciais problemas na barra de 
             Técnica:
         </th>
         <th colspan="2">
-            (x) manual
+            ( ) manual
         </th>
         <th colspan="2">
             (x) automática
@@ -231,6 +231,7 @@ O Exploratory Testing nos permitiu identificar potenciais problemas na barra de 
     </tr>
 </table>
 <br/>
+
 
 ### 3.3 - Integração dos Componentes
 
