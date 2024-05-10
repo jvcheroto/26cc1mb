@@ -745,6 +745,32 @@ Durante o teste de unidade do requisito de Cadastro de Usuário no site da Casa 
 
 Após concluir o processo de cadastro, o usuário deve receber um e-mail de confirmação na caixa de entrada especificada. O e-mail deve conter informações claras e instruções sobre como ativar a conta.
 
+##### 4.4.5 - Informações do Defeito - Carrinho de Compras
+
+- **Título**: Falha na adição de produtos diretamente da lista de resultados de busca
+- **Responsável pela Identificação**: Rodrigo da Cunha
+
+##### Descrição
+
+Durante o teste de aceitação do Carrinho de Compras no site da Casa & Video, identificamos um problema significativo: os usuários não podem adicionar produtos diretamente à lista de resultados de busca. Eles são obrigados a visualizar os detalhes do produto antes de poder adicioná-lo ao carrinho, o que pode resultar em uma experiência de compra mais demorada e menos eficiente.
+
+##### Criticidade
+
+- **Nível**: Média
+- **Impacto**: A falha na adição direta de produtos ao carrinho a partir da lista de resultados de busca pode aumentar a complexidade do processo de compra e potencialmente reduzir as taxas de conversão devido à experiência menos eficiente.
+
+##### Passos para Reproduzir
+
+1. Acesse o site da Casa & Video.
+2. Realize uma busca por um produto.
+3. Observe que não há opção para adicionar o produto diretamente à lista de resultados de busca.
+4. Verifique se é necessário visualizar os detalhes do produto antes de poder adicioná-lo ao carrinho.
+
+##### Resultados Esperados
+
+Os usuários devem ser capazes de adicionar produtos diretamente à lista de resultados de busca, proporcionando uma experiência de compra mais rápida e eficiente.
+os.
+
 ### 4.5 - Integrantes
 
 Alunos                      | Professora                       | Turma    | Matéria
