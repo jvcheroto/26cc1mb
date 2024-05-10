@@ -38,7 +38,42 @@ Esta seção irá apresentar os testes escolhidos para cada iteração do projet
 
 ### 3.1 - Requisito: Itens de promoção
 
-Durante o teste do sistema no site da Casa & Video, uma discrepância nos preços dos produtos foi identificada durante o processo de finalização da compra. Enquanto o produto estava em promoção no site por R$ 289,90, ao ser adicionado ao carrinho com a aplicação de um cupom de desconto e a escolha do método de pagamento via Pix, o preço final aumentou para R$ 336,18. Essa divergência entre os valores levanta questões sobre a integridade e precisão do sistema de precificação da plataforma, assim como a experiência do usuário durante a compra. 
+# Exploratory Testing: 
+
+Nosso grupo decidiu realizar o teste de um item de promoção no site da Casa & Video utilizando a técnica de Exploratory Testing. Essa abordagem de teste ad hoc nos permite explorar o sistema de forma livre, descobrindo possíveis defeitos e problemas que podem não ter sido identificados em testes formais.
+
+## Utilização da Técnica
+
+Ao acessar o site da Casa & Video, navegamos pela seção de promoções e escolhemos aleatoriamente um produto em oferta. Em vez de seguir um roteiro de teste predefinido, utilizamos nossa experiência e conhecimento para interagir com o item selecionado de diferentes maneiras.
+
+## Teste do Item de Promoção
+
+Ao examinarmos o produto selecionado, notamos uma discrepância nos preços dos produtos. Durante o processo de finalização da compra, ao utilizar o cupom disponibilizado e o método de pagamento pix, o produto estava sendo cobrado pelo valor de R$ 336,10. No entanto, ao acessarmos a página inicial, observamos que o mesmo produto estava sendo ofertado por R$ 289,90. Essa divergência entre os valores levanta questões sobre a integridade e precisão do sistema de precificação da plataforma, bem como sobre a experiência do usuário durante o processo de compra.
+
+## Critérios de Teste
+
+### Variedade de Promoções
+- Verificamos se diferentes tipos de promoções estavam sendo exibidos corretamente no site.
+
+### Intuitividade de Navegação
+- Testamos a facilidade de navegação entre os itens de promoção e categorias relacionadas.
+
+### Consistência Visual
+- Avaliamos se os itens de promoção mantinham uma aparência visual consistente com o restante do site.
+
+## Níveis de Criticidade de Defeitos
+
+1. **Baixa**: Defeitos que têm pouco impacto na usabilidade geral do site.
+2. **Média**: Defeitos que afetam parcialmente a funcionalidade do site.
+3. **Alta**: Defeitos que impedem significativamente o uso do site.
+
+## Resultados e Ações
+
+Após identificarmos a discrepância de preço no item de promoção, documentamos nossas descobertas. Recomendamos uma revisão abrangente dos preços dos itens de promoção e a implementação de medidas corretivas para garantir a consistência e precisão das promoções.
+
+## Conclusão
+
+O teste de Exploratory Testing nos permitiu descobrir um problema relevante que poderia ter passado despercebido em testes formais. Essa abordagem flexível e baseada na experiência é uma ferramenta valiosa para garantir a qualidade e a usabilidade do site da Casa & Video, ajudando a identificar e corrigir potenciais problemas antes que impactem negativamente os usuários.
 
 <br/>
 <table>
