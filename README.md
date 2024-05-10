@@ -365,7 +365,7 @@ O teste de unidade do Cadastro de Usuário permite verificar a funcionalidade es
             Objetivo
         </th>
         <th colspan="4">
-            Verificar se a ferramenta de itens por categoria exibe resultados precisos.
+            Verificar se o sistema permite que os Usuários se cadastrem no site fornecendo informações como: Nome completo, endereço de e-mail, senha e informações de contato.
         </th>
     </tr>
     <tr>
@@ -390,10 +390,10 @@ O teste de unidade do Cadastro de Usuário permite verificar a funcionalidade es
             Sistema ( )
         </th>
         <th>
-            Unidade ( )
+            Unidade (x)
         </th>
         <th>
-            Aceitação (x)
+            Aceitação ( )
         </th>
     </tr>
     <tr>
@@ -412,7 +412,7 @@ O teste de unidade do Cadastro de Usuário permite verificar a funcionalidade es
             Responsável(is)
         </th>
         <th colspan="4">
-            Luiz Fernando Sacht
+            Rodrigo da Cunha
         </th>
     </tr>
 </table>
