@@ -642,7 +642,7 @@ Esses SLAs foram estabelecidos com base na importância relativa dos defeitos e 
 
 ### 4.4 - Relatório de Defeito Identificado
 
-#### Informações do Defeito - Itens de Promoção
+#### 4.4.1 - Informações do Defeito - Itens de Promoção
 
 - **Título**: Discrepância de preço em item de promoção
 - **Data de Identificação**: [inserir data]
@@ -671,7 +671,7 @@ Durante o teste do Requisito 1 (Itens de promoção), identificamos uma discrep�
 
 O preço final do produto durante o processo de finalização da compra deve corresponder ao valor anunciado na página inicial do site.
 
-#### Informações do Defeito - Barra de busca
+#### 4.4.2 - Informações do Defeito - Barra de busca
 
 - **Título**: Sugestões de pesquisa imprecisas na barra de busca
 - **Responsável pela Identificação**: João Victor Piumbini Cheroto
