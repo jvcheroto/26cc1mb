@@ -640,41 +640,36 @@ O SLA (Service Level Agreement) de resolução para cada nível de criticidade d
 
 Esses SLAs foram estabelecidos com base na importância relativa dos defeitos e no impacto que podem ter na experiência do usuário e no funcionamento geral do sistema.
 
-### 4.4 - Template de Relatório de Defeito Identificado
+### 4.4 - Relatório de Defeito Identificado
 
-#### Relatório de Defeito - Casa & Video
+#### Informações do Defeito
 
-**ID do Defeito:** [ID]
+- **Título**: Discrepância de preço em item de promoção
+- **Data de Identificação**: [inserir data]
+- **Responsável pela Identificação**: [inserir nome]
 
-**Data de Identificação:** [Data]
+#### Descrição
 
-**Descrição do Defeito:**
-[Descrição detalhada do defeito encontrado, incluindo passos para reproduzir, comportamento esperado e observações adicionais.]
+Durante o teste do Requisito 1 (Itens de promoção), identificamos uma discrepância nos preços dos produtos. Ao utilizar um cupom disponibilizado e o método de pagamento pix, o produto estava sendo cobrado pelo valor de R$ 336,10. No entanto, ao acessarmos a página inicial, observamos que o mesmo produto estava sendo ofertado por R$ 289,90. Essa divergência entre os valores levanta questões sobre a integridade e precisão do sistema de precificação da plataforma, bem como sobre a experiência do usuário durante o processo de compra.
 
-**Nível de Criticidade:** [Baixa / Média / Alta]
+#### Criticidade
 
-**Impacto no Usuário:** [Descreva como o defeito afeta a experiência do usuário.]
+- **Nível**: Alta
+- **Impacto**: A discrepância de preço pode afetar significativamente a confiança dos usuários na plataforma e resultar em perda de vendas.
 
-**Passos para Reproduzir:**
-1. [Passo 1]
-2. [Passo 2]
-3. [Passo 3]
-4. [Se necessário, continue com mais passos.]
+#### Passos para Reproduzir
 
-**Comportamento Esperado:** [Descreva o comportamento esperado do sistema.]
+1. Acesse o site da Casa & Video.
+2. Navegue até a seção de itens em promoção.
+3. Selecione aleatoriamente um produto em oferta.
+4. Adicione o produto ao carrinho.
+5. Prossiga para o checkout e selecione o método de pagamento pix.
+6. Insira o cupom disponibilizado, se aplicável.
+7. Verifique o preço final do produto durante o processo de finalização da compra.
 
-**Comportamento Observado:** [Descreva o comportamento real observado durante o teste.]
+#### Resultados Esperados
 
-**Capturas de Tela / Anexos:** [Se aplicável, inclua capturas de tela ou outros anexos relevantes.]
-
-**Responsável pela Identificação:** [Nome do responsável pela identificação do defeito.]
-
-**Responsável pela Correção:** [Nome do responsável pela correção do defeito.]
-
-**Data de Resolução Prevista:** [Data prevista para a resolução do defeito com base no SLA.]
-
-Este é um exemplo básico de um relatório de defeito que pode ser adaptado conforme necessário para atender às necessidades específicas do projeto.
-
+O preço final do produto durante o processo de finalização da compra deve corresponder ao valor anunciado na página inicial do site.
 
 ### 4.5 - Integrantes
 
