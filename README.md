@@ -720,6 +720,31 @@ Durante o teste da ferramenta de itens por categoria no site da Casa & Video, id
 
 Os itens listados na categoria de TV e Smart TV devem ser relevantes e estar relacionados a produtos de televisão e dispositivos inteligentes, proporcionando uma experiência de compra consistente e intuitiva para os usuários.
 
+#### 4.4.4 - Informações do Defeito - Cadastro de usuário
+
+- **Título**: Falha na entrega de e-mails de confirmação após o cadastro bem-sucedido
+- **Responsável pela Identificação**: Rodrigo da Cunha
+
+##### Descrição
+
+Durante o teste de unidade do requisito de Cadastro de Usuário no site da Casa & Video, identificamos uma falha significativa: os e-mails de confirmação não estão sendo entregues aos usuários após o cadastro bem-sucedido. Essa falha compromete a experiência do usuário e pode resultar em confusão e frustração.
+
+##### Criticidade
+
+- **Nível**: Média
+- **Impacto**: A falha na entrega de e-mails de confirmação impede que os usuários concluam totalmente o processo de cadastro, afetando negativamente a usabilidade e a confiabilidade do sistema.
+
+##### Passos para Reproduzir
+
+1. Acesse o site da Casa & Video.
+2. Inicie o processo de cadastro de um novo usuário.
+3. Insira todas as informações necessárias e conclua o cadastro.
+4. Verifique a caixa de entrada do e-mail fornecido para receber o e-mail de confirmação.
+
+##### Resultados Esperados
+
+Após concluir o processo de cadastro, o usuário deve receber um e-mail de confirmação na caixa de entrada especificada. O e-mail deve conter informações claras e instruções sobre como ativar a conta.
+
 ### 4.5 - Integrantes
 
 Alunos                      | Professora                       | Turma    | Matéria
