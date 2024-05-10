@@ -630,7 +630,53 @@ Esta seção deve descrever os recursos humanos (integrantes) e de ambiente de t
 |---------------------------|----------------------------------------------------|
 | Windows 11 Pro 64-bit     | Google Chrome                                      |
 
-### 4.3 - Integrantes
+### 4.3 - SLA de Resolução
+
+O SLA (Service Level Agreement) de resolução para cada nível de criticidade definida é fundamental para garantir que os problemas identificados sejam tratados de forma oportuna e eficiente. Abaixo estão os SLAs propostos para cada nível de criticidade:
+
+- **Baixa Criticidade**: Resolução dentro de 5 dias úteis.
+- **Média Criticidade**: Resolução dentro de 3 dias úteis.
+- **Alta Criticidade**: Resolução dentro de 24 horas úteis.
+
+Esses SLAs foram estabelecidos com base na importância relativa dos defeitos e no impacto que podem ter na experiência do usuário e no funcionamento geral do sistema.
+
+### 4.4 - Template de Relatório de Defeito Identificado
+
+#### Relatório de Defeito - Casa & Video
+
+**ID do Defeito:** [ID]
+
+**Data de Identificação:** [Data]
+
+**Descrição do Defeito:**
+[Descrição detalhada do defeito encontrado, incluindo passos para reproduzir, comportamento esperado e observações adicionais.]
+
+**Nível de Criticidade:** [Baixa / Média / Alta]
+
+**Impacto no Usuário:** [Descreva como o defeito afeta a experiência do usuário.]
+
+**Passos para Reproduzir:**
+1. [Passo 1]
+2. [Passo 2]
+3. [Passo 3]
+4. [Se necessário, continue com mais passos.]
+
+**Comportamento Esperado:** [Descreva o comportamento esperado do sistema.]
+
+**Comportamento Observado:** [Descreva o comportamento real observado durante o teste.]
+
+**Capturas de Tela / Anexos:** [Se aplicável, inclua capturas de tela ou outros anexos relevantes.]
+
+**Responsável pela Identificação:** [Nome do responsável pela identificação do defeito.]
+
+**Responsável pela Correção:** [Nome do responsável pela correção do defeito.]
+
+**Data de Resolução Prevista:** [Data prevista para a resolução do defeito com base no SLA.]
+
+Este é um exemplo básico de um relatório de defeito que pode ser adaptado conforme necessário para atender às necessidades específicas do projeto.
+
+
+### 4.5 - Integrantes
 
 Alunos                      | Professora                       | Turma    | Matéria
 ----------------------------|----------------------------------|----------|--------------------------------------
