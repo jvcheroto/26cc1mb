@@ -330,11 +330,33 @@ O teste de Exploratory Testing revelou uma discrepância significativa na ferram
 </table>
 <br/>
 
-### 3.4 - Tempo de Resposta
+### 3.4 - Requisito 4: Cadastro por usuário
 
-Para teste de funcionalidade.
-Aqui deve-se verificar se o tempo de respostas das ações do programa são consideradas aceitáveis.
-Se possível usar teste automatizado.
+#### Teste de Unidade:
+
+Nosso grupo optou por realizar o teste do requisito de Cadastro de Usuário no site da Casa & Video utilizando a técnica de Teste de Unidade. Esta abordagem nos permite verificar componentes individuais do sistema de forma isolada, garantindo que cada parte funcione conforme o esperado.
+
+#### Técnica Utilizada:
+
+- **Verificação dos Campos Obrigatórios**: Confirmamos se todos os campos obrigatórios do formulário de cadastro estão funcionando corretamente. Isso inclui validar se o nome completo, endereço de e-mail, senha e informações de contato são inseridos corretamente e se são necessários para concluir o cadastro.
+- **Confirmação por E-mail**: Garantimos que o usuário receba uma confirmação por e-mail após o cadastro bem-sucedido. Isso envolve verificar se o sistema envia automaticamente um e-mail de confirmação para o endereço fornecido pelo usuário e se o conteúdo do e-mail é claro e informativo.
+
+#### Níveis de Criticidade de Defeitos:
+
+- **Baixa**: Inconsistências menores nos campos do formulário de cadastro, como validações de entrada ausentes.
+- **Média**: Falha na entrega da confirmação por e-mail após o cadastro bem-sucedido.
+- **Alta**: Incapacidade total de concluir o processo de cadastro devido a erros graves nos campos obrigatórios ou falha na entrega da confirmação por e-mail.
+
+#### Resultados e Ações:
+
+Após a realização dos testes de unidade para o Cadastro de Usuário, documentamos nossas descobertas e recomendamos as seguintes ações:
+- Correção de quaisquer falhas ou inconsistências encontradas nos campos obrigatórios do formulário de cadastro.
+- Verificação e correção de quaisquer problemas relacionados à entrega de e-mails de confirmação após o cadastro bem-sucedido.
+
+#### Conclusão:
+
+O teste de unidade do Cadastro de Usuário permite verificar a funcionalidade essencial do sistema, garantindo que os usuários possam se cadastrar com sucesso e receber confirmações por e-mail. Esta abordagem é crucial para garantir uma experiência de usuário fluida e confiável no site da Casa & Video.
+
 
 <br/>
 <table>
