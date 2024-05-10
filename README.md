@@ -616,21 +616,24 @@ O teste de Disponibilidade de Produtos revelou áreas de melhoria no sistema da 
 
 ## 4 - Recursos
 
-Esta seção deve descrever os recursos humanos, de ambiente de teste (hardware e software) e de ferramentas de automatização de testes necessários para execução dos testes que devem ser descritos nas subseções que seguem.
+Esta seção deve descrever os recursos humanos (integrantes) e de ambiente de teste (hardware e software) necessários para execução dos testes que devem ser descritos nas subseções que seguem.
 
-### 4.1 - Ambiente de teste - Software e Hardware
+### 4.1 - Ambiente de teste - Hardware
 
-Descreva aqui o hardware e sua configuração, e o software. Por exemplo, o sistema operacional, browsers, servidor web, etc.
+| Modelo do computador| Processador             | Memória RAM | Placa de Vídeo |
+|-------------------- |-------------------------|-------------|----------------|
+| CPU Pessoal         | Intel Core i5 9400F     | 16 GB       | Gtx 1660 Super |
+
 ### 4.2 - Ferramenta de teste
 
 Descreva aqui as ferramentas específicas de teste usadas no projeto.
 
 
-## 5 - Integrantes
+## 4.3 - Integrantes
 
 Alunos                      | Professora                       | Turma    | Matéria
 ----------------------------|----------------------------------|----------|--------------------------------------
 João Victor Piumbini Cheroto|  Gabriela Martins de Jesus       | CC5N     | Qualidade e Testes de Software
-Luiz Fernando Sacht         | Gabriela Martins de Jesus        | CC5N     | Qualidade e Testes de Software
-Rodrigo da Cunha            |   Gabriela Martins de Jesus      | CC5N     | Qualidade e Testes de Software
+Luiz Fernando Sacht         |  Gabriela Martins de Jesus       | CC5N     | Qualidade e Testes de Software
+Rodrigo da Cunha            |  Gabriela Martins de Jesus       | CC5N     | Qualidade e Testes de Software
 
