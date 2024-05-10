@@ -36,7 +36,7 @@ Os seguintes requisitos serão testados durante a execução deste plano:
 
 Esta seção irá apresentar os testes escolhidos para cada iteração do projeto. Destacando a importância da seleção cuidadosa dos testes em cada iteração, este documento visa oferecer uma visão clara das abordagens adotadas para garantir a qualidade do software ao longo do desenvolvimento.
 
-### 3.1 - Requisito: Itens de promoção
+### 3.1 - Requisito 1: Itens de promoção
 
 #### Exploratory Testing: 
 
@@ -137,7 +137,7 @@ O teste de Exploratory Testing nos permitiu descobrir um problema relevante que 
 
 
 
-### 3.2 - Persistência de Dados
+### 3.2 - Requisito 2: Barra de busca
 
 Para teste de integridade de dados e do banco de dados.
 Aqui deve-se verificar se os dados não se perdem ao desligar o programa. Se o programa consegue se recuperar em caso de falha ou fechamento repentino.
