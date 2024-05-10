@@ -261,7 +261,7 @@ Durante nossa exploração, encontramos um resultado inesperado: um aspirador sm
 
 #### Resultados e Ações:
 
-Após identificarmos a presença do aspirador smart na categoria de TV e Smart TV, documentamos nossa descoberta e recomendamos uma revisão na lógica de classificação dos itens por categoria. Propomos a implementação de medidas corretivas para garantir a precisão e relevância dos resultados apresentados aos usuários.
+Após identificarmos a presença do aspirador smart na categoria de TV e Smart TV, documentamos nossa descoberta e recomendamos uma revisão na lógica de classificação dos itens por categoria. 
 
 #### Conclusão:
 
