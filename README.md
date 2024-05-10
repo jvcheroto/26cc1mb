@@ -647,16 +647,16 @@ Esses SLAs foram estabelecidos com base na importância relativa dos defeitos e 
 - **Título**: Discrepância de preço em item de promoção
 - **Responsável pela Identificação**: João Victor Piumbini Cheroto
 
-#### Descrição
+##### Descrição
 
 Durante o teste do Requisito 1 (Itens de promoção), identificamos uma discrepância nos preços dos produtos. Ao utilizar um cupom disponibilizado e o método de pagamento pix, o produto estava sendo cobrado pelo valor de R$ 336,10. No entanto, ao acessarmos a página inicial, observamos que o mesmo produto estava sendo ofertado por R$ 289,90. Essa divergência entre os valores levanta questões sobre a integridade e precisão do sistema de precificação da plataforma, bem como sobre a experiência do usuário durante o processo de compra.
 
-#### Criticidade
+##### Criticidade
 
 - **Nível**: Alta
 - **Impacto**: A discrepância de preço pode afetar significativamente a confiança dos usuários na plataforma e resultar em perda de vendas.
 
-#### Passos para Reproduzir
+##### Passos para Reproduzir
 
 1. Acesse o site da Casa & Video.
 2. Navegue até a seção de itens em promoção.
@@ -666,7 +666,7 @@ Durante o teste do Requisito 1 (Itens de promoção), identificamos uma discrep�
 6. Insira o cupom disponibilizado, se aplicável.
 7. Verifique o preço final do produto durante o processo de finalização da compra.
 
-#### Resultados Esperados
+##### Resultados Esperados
 
 O preço final do produto durante o processo de finalização da compra deve corresponder ao valor anunciado na página inicial do site.
 
@@ -675,23 +675,23 @@ O preço final do produto durante o processo de finalização da compra deve cor
 - **Título**: Sugestões de pesquisa imprecisas na barra de busca
 - **Responsável pela Identificação**: João Victor Piumbini Cheroto
 
-#### Descrição
+##### Descrição
 
 Durante o teste da barra de busca de itens no site da Casa & Video, identificamos que as sugestões de pesquisa fornecidas não estavam correspondendo adequadamente aos termos inseridos pelos usuários. Ao digitar termos comuns, como "TV" ou "máquina de lavar", as sugestões apresentadas não refletiam totalmente as categorias ou produtos relevantes disponíveis no site.
 
-#### Criticidade
+##### Criticidade
 
 - **Nível**: Média
 - **Impacto**: As sugestões imprecisas podem levar os usuários a selecionar termos incorretos ou irrelevantes, prejudicando a experiência de busca e a eficácia na localização de produtos desejados.
 
-#### Passos para Reproduzir
+##### Passos para Reproduzir
 
 1. Acesse o site da Casa & Video.
 2. Localize a barra de busca de itens na parte superior da página.
 3. Digite termos comuns de pesquisa, como "TV" ou "máquina de lavar".
 4. Observe as sugestões de pesquisa fornecidas pela barra de busca.
 
-#### Resultados Esperados
+##### Resultados Esperados
 
 As sugestões de pesquisa devem ser relevantes e precisas, refletindo categorias ou produtos disponíveis no site que correspondam aos termos inseridos pelos usuários.
 
