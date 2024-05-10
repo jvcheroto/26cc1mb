@@ -165,11 +165,11 @@ Durante nossos testes, observamos o comportamento da barra de busca ao inserir t
 
 #### Resultados e Ações:
 
-Após conduzirmos os testes da barra de busca de itens, documentamos nossas descobertas e compartilhamos com a equipe de desenvolvimento. Recomendamos ajustes para melhorar a precisão dos resultados da busca e aprimorar a experiência do usuário durante a navegação pelo site.
+Após conduzirmos os testes da barra de busca de itens, documentamos nossas descobertas e recomendamos ajustes para melhorar a precisão dos resultados da busca e aprimorar a experiência do usuário durante a navegação pelo site.
 
 #### Conclusão:
 
-O teste de Exploratory Testing nos permitiu identificar potenciais problemas na barra de busca de itens do site da Casa & Video. Essa abordagem flexível e baseada na experiência é essencial para garantir a qualidade e a usabilidade do sistema, contribuindo para uma melhor experiência do usuário e maior satisfação ao realizar buscas por produtos no site.
+O Exploratory Testing nos permitiu identificar potenciais problemas na barra de busca de itens do site da Casa & Video. Essa abordagem flexível é baseada na experiência e será essencial para garantir a qualidade e a usabilidade do sistema, contribuindo para uma melhor experiência do usuário e maior satisfação ao realizar buscas por produtos no site.
 
 
 <br/>
