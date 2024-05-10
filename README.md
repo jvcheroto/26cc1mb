@@ -239,7 +239,7 @@ O Exploratory Testing nos permitiu identificar potenciais problemas na barra de 
 
 #### Exploratory Testing:
 
-Nosso grupo decidiu realizar o teste da ferramenta de itens por categoria no site da Casa & Video utilizando a técnica de Exploratory Testing. Essa abordagem de teste ad hoc nos permite explorar o sistema de forma livre, descobrindo possíveis defeitos e problemas que podem não ter sido identificados em testes formais.
+Nosso grupo decidiu realizar o teste da ferramenta de itens por categoria no site da Casa & Video utilizando a técnica de Exploratory Testing. Essa abordagem de teste ad hoc nos permite explorar o sistema de forma livre, descobrindo possíveis defeitos e problemas que podem não ter sido identificados em testes formais. 
 
 #### Utilização da Técnica:
 
@@ -334,7 +334,7 @@ O teste de Exploratory Testing revelou uma discrepância significativa na ferram
 
 #### Teste de Unidade:
 
-Nosso grupo optou por realizar o teste do requisito de Cadastro de Usuário no site da Casa & Video utilizando a técnica de Teste de Unidade. Esta abordagem nos permite verificar componentes individuais do sistema de forma isolada, garantindo que cada parte funcione conforme o esperado.
+Nosso grupo optou por realizar o teste do requisito de Cadastro de Usuário no site da Casa & Video utilizando a técnica de Teste de Unidade. Esta abordagem nos permite verificar componentes individuais do sistema de forma isolada, garantindo que cada parte funcione conforme o esperado. O cadastro ocorre de uma maneira onde você precisa manualmente editar o perfil para inserir as informações como endereço, nome completo e outras informações, porém você precisa apenas informar o e-mail e confirmar o código recebido para criar uma conta no site. Essa forma gera um trabalho mais manual para o usuário para realizar o cadastro completo.
 
 #### Técnica Utilizada:
 
@@ -419,11 +419,38 @@ O teste de unidade do Cadastro de Usuário permite verificar a funcionalidade es
 <br/>
 
 
-### 3.5 - Animação
+### 3.5 - Requisito Carrinho de Compras
 
-Para teste de funcionalidade (para games, principalmente, mas não somente).
-Aqui deve-se verificar se as animações existentes no programa são disparadas quando devem e se seguem uma sequência lógica.
-Se possível usar teste automatizado.
+#### Teste de Aceitação:
+
+Nosso grupo optou por realizar o teste do requisito de Carrinho de Compras no site da Casa & Video utilizando a técnica de Teste de Aceitação. Esta abordagem nos permite verificar se o sistema atende aos requisitos de negócio e se está adequado às expectativas dos usuários finais.
+
+#### Técnica Utilizada:
+
+- **Verificação da Adição de Produtos**: Verificamos se os produtos podem ser adicionados ao carrinho a partir das páginas de detalhes do produto e da lista de resultados de busca.
+- **Teste da Visualização dos Itens no Carrinho**: Testamos a visualização correta dos itens adicionados ao carrinho, garantindo que todas as informações necessárias estejam visíveis para o usuário.
+
+#### Descrição do Problema:
+
+Durante o teste, identificamos que a plataforma não permite a adição de produtos diretamente a partir da lista de resultados de busca. Os usuários são obrigados a visualizar os detalhes do produto antes de poder adicioná-lo ao carrinho. Isso pode resultar em uma experiência de compra mais demorada, especialmente para usuários que já decidiram comprar o produto com base nas informações exibidas na lista de resultados de busca.
+
+#### Níveis de Criticidade de Defeitos:
+
+- **Baixa**: Demora adicional na adição de produtos ao carrinho a partir da lista de resultados de busca.
+- **Média**: Complexidade aumentada do processo de compra devido à necessidade de visualizar os detalhes do produto antes da adição ao carrinho.
+- **Alta**: Potencial redução nas taxas de conversão devido à experiência de compra menos eficiente.
+
+#### Resultados e Ações:
+
+Após realizar o teste de aceitação do Carrinho de Compras, documentamos nossa descoberta e recomendamos as seguintes ações:
+- Implementação da funcionalidade de adição de produtos ao carrinho diretamente da lista de resultados de busca.
+- Melhoria na interface do carrinho de compras para garantir uma visualização clara e completa dos itens adicionados, incluindo informações como nome do produto, quantidade, preço e opções de edição e remoção.
+
+#### Conclusão:
+
+O teste de aceitação do Carrinho de Compras revelou uma limitação na funcionalidade de adição de produtos no site da Casa & Video. A implementação de melhorias sugeridas pode ajudar a otimizar a experiência do usuário, proporcionando uma navegação mais fluida e eficiente durante o processo de compra.
+
+
 
 <br/>
 <table>
@@ -432,7 +459,7 @@ Se possível usar teste automatizado.
             Objetivo
         </th>
         <th colspan="4">
-            descreva aqui o objetivo
+            Verificar se o sistema permite que os produtos sejam adicionados ao carrinho de compras, visualizados e gerenciados corretamente.
         </th>
     </tr>
     <tr>
@@ -443,7 +470,7 @@ Se possível usar teste automatizado.
             ( ) manual
         </th>
         <th colspan="2">
-            ( ) automática
+            (x) automática
         </th>
     </tr>
     <tr>
@@ -460,7 +487,7 @@ Se possível usar teste automatizado.
             Unidade ( )
         </th>
         <th>
-            Aceitação ( )
+            Aceitação (x)
         </th>
     </tr>
     <tr>
@@ -471,7 +498,7 @@ Se possível usar teste automatizado.
             Caixa branca ( )
         </th>
         <th colspan="2">
-            Caixa preta ( )
+            Caixa preta (x)
         </th>
     </tr>
     <tr>
@@ -479,11 +506,12 @@ Se possível usar teste automatizado.
             Responsável(is)
         </th>
         <th colspan="4">
-            João Victor Piumbini Cheroto
+            Rodrigo da Cunha
         </th>
     </tr>
 </table>
 <br/>
+
 
 ## 4 - Recursos
 
