@@ -459,7 +459,7 @@ O teste de aceitação do Carrinho de Compras revelou uma limitação na funcion
             Objetivo
         </th>
         <th colspan="4">
-            Verificar se o sistema permite que os produtos sejam adicionados ao carrinho de compras, visualizados e gerenciados corretamente.
+            Verificar se o sistema permite que os Usuários se cadastrem no site fornecendo informações como: Nome completo, endereço de e-mail, senha e informações de contato.
         </th>
     </tr>
     <tr>
@@ -484,10 +484,10 @@ O teste de aceitação do Carrinho de Compras revelou uma limitação na funcion
             Sistema ( )
         </th>
         <th>
-            Unidade ( )
+            Unidade (x)
         </th>
         <th>
-            Aceitação (x)
+            Aceitação ( )
         </th>
     </tr>
     <tr>
@@ -511,6 +511,7 @@ O teste de aceitação do Carrinho de Compras revelou uma limitação na funcion
     </tr>
 </table>
 <br/>
+
 
 
 ## 4 - Recursos
