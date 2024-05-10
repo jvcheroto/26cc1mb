@@ -16,41 +16,26 @@ Com esse documento, identificaremos:
 - Recursos necessários e prover uma estimativa dos esforços de teste.
 - Listar os elementos resultantes do projeto de testes.
 
-## 2 - Requisitos a Testar
+## 2 - Requisitos Funcionais
 
-Esta seção deve conter os casos de uso e requisitos funcionais identificados como objetos dos testes ao longo do desenvolvimento do projeto.
+Esta seção contém os requisitos funcionais identificados como objetos dos testes ao longo do desenvolvimento do projeto.
 
 Os seguintes requisitos serão testados durante a execução deste plano:
 
-1. **Barra de Busca:**
-   - Testar a funcionalidade da barra de busca para garantir que os resultados sejam precisos e relevantes.
-   - Verificar se a busca retorna produtos correspondentes às palavras-chave inseridas.
-   - Testar a capacidade de filtrar os resultados da busca por categoria, preço, marca, etc.
+ |Requisito  | Descrição                                          |
+ |-----------|----------------------------------------------------|
+ |REQ-001    | Barra de busca                                     |
+ |REQ-002    | Itens por categoria                                |
+ |REQ-003    | Itens de promoção                                  |
+ 
+ 
+## 3 - Testes
 
-2. **Produtos por Categoria:**
-   - Testar as categorias para garantir que os usuários possam encontrar facilmente os produtos desejados.
-   - Verificar se cada categoria exibe uma lista de produtos relacionados de forma precisa e organizada.
-   - Testar a funcionalidade de filtragem dentro de cada categoria para refinar os resultados conforme as preferências do usuário.
+Esta seção irá apresentar os testes escolhidos para cada iteração do projeto. Destacando a importância da seleção cuidadosa dos testes em cada iteração, este documento visa oferecer uma visão clara das abordagens adotadas para garantir a qualidade do software ao longo do desenvolvimento.
 
-## 3 - Tipos de teste
+### 3.1 - Requisito: Itens de promoção
 
-Esta seção deve conter os tipos de testes escolhidos para cada iteração do projeto.
-Pode-se definir inicialmente apenas os tipos de testes que serão usadas na próxima iteração, mas é possível também já registrar eventuais tipos de teste que se espera utilizar nas demais iterações. 
-Com base no guia de testes, indique os tipos de testes que melhor se adéquam aos requisitos, tipo da aplicação e seus recursos disponíveis e, caso necessário complemente ou forneça mais detalhes da técnica e dos critérios de completude sugeridos no guia para cada tipo de teste indicado.
-
-- Teste de interface de usuário;
-- Teste de performance;
-- Teste de carga;
-- Teste de stress;
-- Teste de segurança e controle de acesso;
-- Teste de instalação;
-- Entre outros.
-
-### 3.1 - Métodos da Classe 
-
-Para teste de funcionalidade.
-Aqui deve-se verificar se cada classe retorna o esperado.
-Se possível usar teste automatizado.
+Durante o teste do sistema no site da Casa & Video, uma discrepância nos preços dos produtos foi identificada durante o processo de finalização da compra. Enquanto o produto estava em promoção no site por R$ 289,90, ao ser adicionado ao carrinho com a aplicação de um cupom de desconto e a escolha do método de pagamento via Pix, o preço final aumentou para R$ 336,18. Essa divergência entre os valores levanta questões sobre a integridade e precisão do sistema de precificação da plataforma, assim como a experiência do usuário durante a compra. 
 
 <br/>
 <table>
@@ -59,7 +44,7 @@ Se possível usar teste automatizado.
             Objetivo
         </th>
         <th colspan="4">
-            descreva aqui o objetivo
+            Verificar se o preço da compra é o mesmo do anunciado pelo site
         </th>
     </tr>
     <tr>
@@ -70,7 +55,7 @@ Se possível usar teste automatizado.
             (x) manual
         </th>
         <th colspan="2">
-            (x) automática
+            ( ) automática
         </th>
     </tr>
     <tr>
@@ -95,7 +80,7 @@ Se possível usar teste automatizado.
             Abordagem do teste
         </th>
         <th colspan="2">
-            Caixa branca (x)
+            Caixa branca ( )
         </th>
         <th colspan="2">
             Caixa preta (x)
@@ -106,11 +91,13 @@ Se possível usar teste automatizado.
             Responsável(is)
         </th>
         <th colspan="4">
-            Programador(es) ou equipe de testes
+            João Victor Piumbini Cheroto
         </th>
     </tr>
 </table>
 <br/>
+
+
 
 ### 3.2 - Persistência de Dados
 
@@ -172,7 +159,7 @@ Se possível usar teste automatizado.
             Responsável(is)
         </th>
         <th colspan="4">
-            Programador(es) ou equipe de testes
+            João Victor Piumbini Cheroto
         </th>
     </tr>
 </table>
@@ -238,7 +225,7 @@ Se possível usar teste automatizado.
             Responsável(is)
         </th>
         <th colspan="4">
-            Programador(es) ou equipe de testes
+            João Victor Piumbini Cheroto
         </th>
     </tr>
 </table>
@@ -304,7 +291,7 @@ Se possível usar teste automatizado.
             Responsável(is)
         </th>
         <th colspan="4">
-            Programador(es) ou equipe de testes
+            João Victor Piumbini Cheroto
         </th>
     </tr>
 </table>
@@ -370,7 +357,7 @@ Se possível usar teste automatizado.
             Responsável(is)
         </th>
         <th colspan="4">
-            Programador(es) ou equipe de testes
+            João Victor Piumbini Cheroto
         </th>
     </tr>
 </table>
@@ -388,12 +375,11 @@ Descreva aqui o hardware e sua configuração, e o software. Por exemplo, o sist
 Descreva aqui as ferramentas específicas de teste usadas no projeto.
 
 
-## 5 - Cronograma
+## 5 - Integrantes
 
-Tipo de teste      | Duração | data de início | data de término
--------------------|---------|----------------|-----------------
-planejar teste     |         | dd/mm/aaaa     | dd/mm/aaaa
-projetar teste     |         | dd/mm/aaaa     | dd/mm/aaaa
-implementar teste  |         | dd/mm/aaaa     | dd/mm/aaaa
-executar teste     |         | dd/mm/aaaa     | dd/mm/aaaa
-avaliar teste      |         | dd/mm/aaaa     | dd/mm/aaaa
+Alunos                      | Professora                       | Turma    | Matéria
+----------------------------|----------------------------------|----------|--------------------------------------
+João Victor Piumbini Cheroto|  Gabriela Martins de Jesus       | CC5N     | Qualidade e Testes de Software
+Luiz Fernando Sacht         | Gabriela Martins de Jesus        | CC5N     | Qualidade e Testes de Software
+Rodrigo da Cunha            |   Gabriela Martins de Jesus      | CC5N     | Qualidade e Testes de Software
+
