@@ -233,11 +233,40 @@ O Exploratory Testing nos permitiu identificar potenciais problemas na barra de 
 <br/>
 
 
-### 3.3 - Integração dos Componentes
+### 3.3 - Requisito 3: Itens por Categoria
 
-Para teste de funcionalidade.
-Aqui deve-se verificar se as classes e métodos conseguem fazer a integração entre elas para uma sequência de ações do programa.
-Se possível usar teste automatizado.
+#### Exploratory Testing:
+
+Nosso grupo decidiu realizar o teste da ferramenta de itens por categoria no site da Casa & Video utilizando a técnica de Exploratory Testing. Essa abordagem de teste ad hoc nos permite explorar o sistema de forma livre, descobrindo possíveis defeitos e problemas que podem não ter sido identificados em testes formais.
+
+#### Utilização da Técnica:
+
+Ao acessar o site da Casa & Video, navegamos pela seção de categorias e selecionamos a categoria de TV e Smart TV. Em vez de seguir um roteiro de teste predefinido, utilizamos nossa experiência e conhecimento para explorar os itens listados nessa categoria.
+
+#### Teste da Ferramenta de Itens por Categoria:
+
+Durante nossa exploração, encontramos um resultado inesperado: um aspirador smart listado na categoria de TV e Smart TV. Essa discrepância levanta questões sobre a precisão e relevância dos resultados da ferramenta de itens por categoria.
+
+#### Critérios de Teste:
+
+- **Precisão dos Resultados**: Verificamos se os resultados exibidos na categoria de TV e Smart TV correspondiam aos produtos relevantes para essa categoria.
+- **Relevância dos Itens**: Avaliamos se os itens listados estavam de acordo com a categoria selecionada e se eram pertinentes para os usuários interessados em produtos de TV e Smart TV.
+- **Consistência Visual**: Verificamos se a apresentação dos itens seguia o padrão visual do restante do site.
+
+#### Níveis de Criticidade de Defeitos:
+
+- **Baixa**: Inconsistências menores nos resultados da categoria.
+- **Média**: Presença frequente de itens irrelevantes na categoria.
+- **Alta**: Presença constante de itens completamente fora do escopo da categoria, prejudicando a experiência do usuário.
+
+#### Resultados e Ações:
+
+Após identificarmos a presença do aspirador smart na categoria de TV e Smart TV, documentamos nossa descoberta e recomendamos uma revisão na lógica de classificação dos itens por categoria. Propomos a implementação de medidas corretivas para garantir a precisão e relevância dos resultados apresentados aos usuários.
+
+#### Conclusão:
+
+O teste de Exploratory Testing revelou uma discrepância significativa na ferramenta de itens por categoria do site da Casa & Video. Essa abordagem flexível e baseada na experiência nos permitiu identificar um problema potencial que pode afetar a usabilidade e a confiabilidade da plataforma. Essa descoberta destaca a importância de testes contínuos e abrangentes para garantir a qualidade do sistema.
+
 
 <br/>
 <table>
@@ -246,7 +275,7 @@ Se possível usar teste automatizado.
             Objetivo
         </th>
         <th colspan="4">
-            descreva aqui o objetivo
+            Verificar se a ferramenta de itens por categoria exibe resultados precisos.
         </th>
     </tr>
     <tr>
@@ -254,7 +283,7 @@ Se possível usar teste automatizado.
             Técnica:
         </th>
         <th colspan="2">
-            (x) manual
+            ( ) manual
         </th>
         <th colspan="2">
             (x) automática
@@ -265,7 +294,7 @@ Se possível usar teste automatizado.
             Estágio do teste
         </th>
         <th>
-            Integração (x)
+            Integração ( )
         </th>
         <th>
             Sistema ( )
@@ -274,7 +303,7 @@ Se possível usar teste automatizado.
             Unidade ( )
         </th>
         <th>
-            Aceitação ( )
+            Aceitação (x)
         </th>
     </tr>
     <tr>
@@ -282,7 +311,7 @@ Se possível usar teste automatizado.
             Abordagem do teste
         </th>
         <th colspan="2">
-            Caixa branca (x)
+            Caixa branca ( )
         </th>
         <th colspan="2">
             Caixa preta (x)
@@ -293,7 +322,7 @@ Se possível usar teste automatizado.
             Responsável(is)
         </th>
         <th colspan="4">
-            João Victor Piumbini Cheroto
+            Luiz Fernando Sacht
         </th>
     </tr>
 </table>
@@ -312,7 +341,7 @@ Se possível usar teste automatizado.
             Objetivo
         </th>
         <th colspan="4">
-            descreva aqui o objetivo
+            Verificar se a ferramenta de itens por categoria exibe resultados precisos.
         </th>
     </tr>
     <tr>
@@ -323,7 +352,7 @@ Se possível usar teste automatizado.
             ( ) manual
         </th>
         <th colspan="2">
-            ( ) automática
+            (x) automática
         </th>
     </tr>
     <tr>
@@ -340,7 +369,7 @@ Se possível usar teste automatizado.
             Unidade ( )
         </th>
         <th>
-            Aceitação ( )
+            Aceitação (x)
         </th>
     </tr>
     <tr>
@@ -351,7 +380,7 @@ Se possível usar teste automatizado.
             Caixa branca ( )
         </th>
         <th colspan="2">
-            Caixa preta ( )
+            Caixa preta (x)
         </th>
     </tr>
     <tr>
@@ -359,11 +388,12 @@ Se possível usar teste automatizado.
             Responsável(is)
         </th>
         <th colspan="4">
-            João Victor Piumbini Cheroto
+            Luiz Fernando Sacht
         </th>
     </tr>
 </table>
 <br/>
+
 
 ### 3.5 - Animação
 
