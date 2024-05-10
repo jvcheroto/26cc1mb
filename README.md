@@ -419,7 +419,7 @@ O teste de unidade do Cadastro de Usuário permite verificar a funcionalidade es
 <br/>
 
 
-### 3.5 - Requisito Carrinho de Compras
+### 3.5 - Requisito 5: Carrinho de Compras
 
 #### Teste de Aceitação:
 
