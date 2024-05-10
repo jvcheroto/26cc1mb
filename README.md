@@ -6,7 +6,7 @@
 
 O site da Casa & Video oferece uma ampla variedade de produtos para o lar, desde eletrodomésticos até itens de decoração. Criado com o objetivo de fornecer uma plataforma conveniente e acessível para compras online, a Casa & Video atende às necessidades dos consumidores que buscam qualidade, variedade e preços competitivos para equipar e decorar suas casas.
 
-### 1 - Introdução
+## 1 - Introdução
 
 Este documento descreve o plano de testes para o site da Casa & Vídeo. O objetivo deste plano é garantir que todas as funcionalidades do site estejam funcionando corretamente, proporcionando uma experiência de compra satisfatória aos usuários.
 
@@ -19,7 +19,7 @@ Com esse documento, identificaremos:
 - Recursos necessários e prover uma estimativa dos esforços de teste.
 - Listar os elementos resultantes do projeto de testes.
 
-### 2 - Requisitos Funcionais
+## 2 - Requisitos Funcionais
 
 Esta seção contém os requisitos funcionais identificados como objetos dos testes ao longo do desenvolvimento do projeto.
 
@@ -32,7 +32,7 @@ Os seguintes requisitos serão testados durante a execução deste plano:
  |REQ-003    | Barra de busca                                     |
  
  
-### 3 - Testes
+## 3 - Testes
 
 Esta seção irá apresentar os testes escolhidos para cada iteração do projeto. Destacando a importância da seleção cuidadosa dos testes em cada iteração, este documento visa oferecer uma visão clara das abordagens adotadas para garantir a qualidade do software ao longo do desenvolvimento.
 
