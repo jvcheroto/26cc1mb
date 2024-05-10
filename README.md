@@ -2,11 +2,11 @@
 
 **CASA & VIDEO**
 
-# Sobre Casa & Video
+## Sobre Casa & Video
 
 O site da Casa & Video oferece uma ampla variedade de produtos para o lar, desde eletrodomésticos até itens de decoração. Criado com o objetivo de fornecer uma plataforma conveniente e acessível para compras online, a Casa & Video atende às necessidades dos consumidores que buscam qualidade, variedade e preços competitivos para equipar e decorar suas casas.
 
-## 1 - Introdução
+### 1 - Introdução
 
 Este documento descreve o plano de testes para o site da Casa & Vídeo. O objetivo deste plano é garantir que todas as funcionalidades do site estejam funcionando corretamente, proporcionando uma experiência de compra satisfatória aos usuários.
 
@@ -19,7 +19,7 @@ Com esse documento, identificaremos:
 - Recursos necessários e prover uma estimativa dos esforços de teste.
 - Listar os elementos resultantes do projeto de testes.
 
-## 2 - Requisitos Funcionais
+### 2 - Requisitos Funcionais
 
 Esta seção contém os requisitos funcionais identificados como objetos dos testes ao longo do desenvolvimento do projeto.
 
@@ -32,25 +32,25 @@ Os seguintes requisitos serão testados durante a execução deste plano:
  |REQ-003    | Barra de busca                                     |
  
  
-## 3 - Testes
+### 3 - Testes
 
 Esta seção irá apresentar os testes escolhidos para cada iteração do projeto. Destacando a importância da seleção cuidadosa dos testes em cada iteração, este documento visa oferecer uma visão clara das abordagens adotadas para garantir a qualidade do software ao longo do desenvolvimento.
 
 ### 3.1 - Requisito: Itens de promoção
 
-## Exploratory Testing: 
+### Exploratory Testing: 
 
 Nosso grupo decidiu realizar o teste de um item de promoção no site da Casa & Video utilizando a técnica de Exploratory Testing. Essa abordagem de teste ad hoc nos permite explorar o sistema de forma livre, descobrindo possíveis defeitos e problemas que podem não ter sido identificados em testes formais.
 
-## Utilização da Técnica
+### Utilização da Técnica
 
 Ao acessar o site da Casa & Video, navegamos pela seção de promoções e escolhemos aleatoriamente um produto em oferta. Em vez de seguir um roteiro de teste predefinido, utilizamos nossa experiência e conhecimento para interagir com o item selecionado de diferentes maneiras.
 
-## Teste do Item de Promoção
+### Teste do Item de Promoção
 
 Ao examinarmos o produto selecionado, notamos uma discrepância nos preços dos produtos. Durante o processo de finalização da compra, ao utilizar o cupom disponibilizado e o método de pagamento pix, o produto estava sendo cobrado pelo valor de R$ 336,10. No entanto, ao acessarmos a página inicial, observamos que o mesmo produto estava sendo ofertado por R$ 289,90. Essa divergência entre os valores levanta questões sobre a integridade e precisão do sistema de precificação da plataforma, bem como sobre a experiência do usuário durante o processo de compra.
 
-## Critérios de Teste
+### Critérios de Teste
 
 ### Variedade de Promoções
 - Verificamos se diferentes tipos de promoções estavam sendo exibidos corretamente no site.
@@ -61,17 +61,17 @@ Ao examinarmos o produto selecionado, notamos uma discrepância nos preços dos 
 ### Consistência Visual
 - Avaliamos se os itens de promoção mantinham uma aparência visual consistente com o restante do site.
 
-## Níveis de Criticidade de Defeitos
+### Níveis de Criticidade de Defeitos
 
 1. **Baixa**: Defeitos que têm pouco impacto na usabilidade geral do site.
 2. **Média**: Defeitos que afetam parcialmente a funcionalidade do site.
 3. **Alta**: Defeitos que impedem significativamente o uso do site.
 
-## Resultados e Ações
+### Resultados e Ações
 
 Após identificarmos a discrepância de preço no item de promoção, documentamos nossas descobertas. Recomendamos uma revisão abrangente dos preços dos itens de promoção e a implementação de medidas corretivas para garantir a consistência e precisão das promoções.
 
-## Conclusão
+### Conclusão
 
 O teste de Exploratory Testing nos permitiu descobrir um problema relevante que poderia ter passado despercebido em testes formais. Essa abordagem flexível e baseada na experiência é uma ferramenta valiosa para garantir a qualidade e a usabilidade do site da Casa & Video, ajudando a identificar e corrigir potenciais problemas antes que impactem negativamente os usuários.
 
