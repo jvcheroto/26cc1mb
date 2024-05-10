@@ -30,6 +30,8 @@ Os seguintes requisitos serão testados durante a execução deste plano:
  |REQ-001    | Itens de promoção                                  |
  |REQ-002    | Barra de pesquisa                                  |
  |REQ-003    | Itens por categoria                                |
+ |REQ-004    | Cadastro por usuário                               |
+ |REQ-005    | Carrinho de compras                                |
  
  
 ## 3 - Testes
