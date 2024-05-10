@@ -521,7 +521,7 @@ Para garantir a integridade e usabilidade do sistema da Casa & Video, realizamos
 
 #### Utilização da Técnica
 
-Nossa equipe executou uma série de testes utilizando a técnica de Teste de Disponibilidade de Produtos. Em vez de seguir um roteiro predefinido, exploramos o sistema de forma livre, interagindo com produtos que estavam indisponíveis para compra de diferentes maneiras.
+Nosso grupo executou uma série de testes utilizando a técnica de Teste de Disponibilidade de Produtos. Em vez de seguir um roteiro predefinido, exploramos o sistema de forma livre, interagindo com produtos que estavam indisponíveis para compra de diferentes maneiras.
 
 #### Teste dos Itens Fora de Estoque
 
