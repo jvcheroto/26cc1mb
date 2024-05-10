@@ -32,6 +32,7 @@ Os seguintes requisitos serão testados durante a execução deste plano:
  |REQ-003    | Itens por categoria                                |
  |REQ-004    | Cadastro por usuário                               |
  |REQ-005    | Carrinho de compras                                |
+ |REQ-006    | Itens fora de estoque                              |
  
  
 ## 3 - Testes
@@ -507,6 +508,105 @@ O teste de aceitação do Carrinho de Compras revelou uma limitação na funcion
         </th>
         <th colspan="4">
             Rodrigo da Cunha
+        </th>
+    </tr>
+</table>
+<br/>
+
+### 3.6 - Requisito 6: Itens Fora de Estoque
+
+#### Teste de Disponibilidade de Produtos: 
+
+Para garantir a integridade e usabilidade do sistema da Casa & Video, realizamos testes específicos para verificar a correta exibição e tratamento de produtos que estão indisponíveis para compra.
+
+#### Utilização da Técnica
+
+Nossa equipe executou uma série de testes utilizando a técnica de Teste de Disponibilidade de Produtos. Em vez de seguir um roteiro predefinido, exploramos o sistema de forma livre, interagindo com produtos que estavam indisponíveis para compra de diferentes maneiras.
+
+#### Teste dos Itens Fora de Estoque
+
+Durante nossa análise dos itens fora de estoque, notamos alguns comportamentos inconsistentes no sistema. Ao tentar acessar produtos que estavam esgotados, observamos que em algumas ocasiões eles ainda estavam visíveis nas categorias e nos resultados de busca. Isso poderia potencialmente confundir os usuários e levar a expectativas falsas sobre a disponibilidade dos produtos.
+
+#### Critérios de Teste
+
+#### Funcionalidade
+- Verificamos se os produtos indisponíveis foram corretamente identificados como tal no sistema.
+
+#### Usabilidade
+- Avaliamos se a mensagem de indisponibilidade era clara e compreensível para os usuários.
+
+#### Navegação
+- Testamos se os produtos indisponíveis foram removidos corretamente das categorias e resultados de busca, evitando confusão aos usuários.
+
+#### Níveis de Criticidade de Defeitos
+
+1. **Baixa**: Defeitos relacionados à exibição inconsistente de produtos indisponíveis, que não comprometem diretamente a funcionalidade do sistema.
+2. **Média**: Defeitos que impactam a usabilidade do sistema, como mensagens de indisponibilidade pouco claras ou remoção inadequada de produtos indisponíveis.
+3. **Alta**: Defeitos que impedem os usuários de identificar corretamente a disponibilidade dos produtos, afetando negativamente a experiência de compra.
+
+#### Resultados e Ações
+
+Após identificarmos as inconsistências na exibição dos itens fora de estoque, documentamos nossas descobertas. Recomendamos uma revisão detalhada do processo de gestão de produtos indisponíveis e a implementação de medidas corretivas para garantir uma experiência de usuário consistente e transparente.
+
+#### Conclusão
+
+O teste de Disponibilidade de Produtos revelou áreas de melhoria no sistema da Casa & Video relacionadas à gestão de itens fora de estoque. Ao abordar essas questões, podemos garantir uma experiência de compra mais confiável e satisfatória para os usuários, fortalecendo a reputação da marca e aumentando a fidelidade do cliente.
+
+<br/>
+<table>
+    <tr>
+        <th>
+            Objetivo
+        </th>
+        <th colspan="4">
+            Verificar se o sistema exibe corretamente a indisponibilidade de produtos e sua remoção das categorias e resultados de busca.
+        </th>
+    </tr>
+    <tr>
+        <th>
+            Técnica:
+        </th>
+        <th colspan="2">
+            ( ) manual
+        </th>
+        <th colspan="2">
+            (x) automática
+        </th>
+    </tr>
+    <tr>
+        <th>
+            Estágio do teste
+        </th>
+        <th>
+            Integração ( )
+        </th>
+        <th>
+            Sistema ( )
+        </th>
+        <th>
+            Unidade (x)
+        </th>
+        <th>
+            Aceitação ( )
+        </th>
+    </tr>
+    <tr>
+        <th>
+            Abordagem do teste
+        </th>
+        <th colspan="2">
+            Caixa branca ( )
+        </th>
+        <th colspan="2">
+            Caixa preta (x)
+        </th>
+    </tr>
+    <tr>
+        <th>
+            Responsável(is)
+        </th>
+        <th colspan="4">
+            Luiz Fernando Sacht
         </th>
     </tr>
 </table>
