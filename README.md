@@ -638,6 +638,28 @@ O SLA (Service Level Agreement) de resolução para cada nível de criticidade d
 
 Esses SLAs foram estabelecidos com base na importância relativa dos defeitos e no impacto que podem ter na experiência do usuário e no funcionamento geral do sistema.
 
+#### Exemplos de SLAs de Outras Empresas:
+
+1. **Amazon Web Services (AWS)**:
+   - Baixa Criticidade: Resolução dentro de 48 horas.
+   - Média Criticidade: Resolução dentro de 24 horas.
+   - Alta Criticidade: Resolução dentro de 4 horas.
+
+2. **Microsoft Azure**:
+   - Baixa Criticidade: Resolução dentro de 3 dias úteis.
+   - Média Criticidade: Resolução dentro de 1 dia útil.
+   - Alta Criticidade: Resolução dentro de 4 horas.
+
+3. **Salesforce**:
+   - Baixa Criticidade: Resolução dentro de 5 dias úteis.
+   - Média Criticidade: Resolução dentro de 3 dias úteis.
+   - Alta Criticidade: Resolução dentro de 24 horas úteis.
+
+4. **Google Cloud Platform (GCP)**:
+   - Baixa Criticidade: Resolução dentro de 2 dias úteis.
+   - Média Criticidade: Resolução dentro de 1 dia útil.
+   - Alta Criticidade: Resolução dentro de 4 horas.
+
 ### 4.4 - Relatório de Defeito Identificado
 
 #### 4.4.1 - Informações do Defeito - Itens de Promoção
