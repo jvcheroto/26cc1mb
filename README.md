@@ -645,8 +645,7 @@ Esses SLAs foram estabelecidos com base na importância relativa dos defeitos e 
 #### 4.4.1 - Informações do Defeito - Itens de Promoção
 
 - **Título**: Discrepância de preço em item de promoção
-- **Data de Identificação**: [inserir data]
-- **Responsável pela Identificação**: [inserir nome]
+- **Responsável pela Identificação**: João Victor Piumbini Cheroto
 
 #### Descrição
 
