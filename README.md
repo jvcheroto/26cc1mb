@@ -612,8 +612,6 @@ O teste de Disponibilidade de Produtos revelou áreas de melhoria no sistema da 
 </table>
 <br/>
 
-
-
 ## 4 - Recursos
 
 Esta seção deve descrever os recursos humanos (integrantes) e de ambiente de teste (hardware e software) necessários para execução dos testes que devem ser descritos nas subseções que seguem.
@@ -770,6 +768,31 @@ Durante o teste de aceitação do Carrinho de Compras no site da Casa & Video, i
 
 Os usuários devem ser capazes de adicionar produtos diretamente à lista de resultados de busca, proporcionando uma experiência de compra mais rápida e eficiente.
 os.
+
+##### 4.4.6 - Informações do Defeito - Itens Fora de Estoque
+
+- **Título**: Falha na exibição correta de itens fora de estoque
+- **Responsável pela Identificação**: Rodrigo da Cunha
+
+##### Descrição
+
+Durante o teste de aceitação do requisito de Itens Fora de Estoque no site da Casa & Video, identificamos uma falha significativa na exibição dos produtos indisponíveis. Em diversas ocasiões, notamos que os produtos fora de estoque ainda estavam visíveis nas categorias e nos resultados de busca, mesmo após esgotados. Isso pode potencialmente confundir os usuários e levar a expectativas falsas sobre a disponibilidade dos produtos.
+
+##### Criticidade
+
+- **Nível**: Média
+- **Impacto**: A falha na exibição correta dos itens fora de estoque pode impactar negativamente a usabilidade do sistema, levando à confusão dos usuários e prejudicando a experiência de compra.
+
+##### Passos para Reproduzir
+
+1. Acesse o site da Casa & Video.
+2. Navegue até uma categoria ou realize uma busca por um produto fora de estoque.
+3. Observe que o produto ainda está visível nas categorias ou nos resultados de busca, apesar de estar esgotado.
+4. Verifique se há inconsistências na exibição da disponibilidade dos produtos.
+
+##### Resultados Esperados
+
+Os produtos fora de estoque devem ser corretamente identificados como indisponíveis para compra no sistema. Eles devem ser removidos das categorias e resultados de busca para evitar confusão aos usuários.
 
 ### 4.5 - Integrantes
 
