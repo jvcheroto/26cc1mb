@@ -695,6 +695,31 @@ Durante o teste da barra de busca de itens no site da Casa & Video, identificamo
 
 As sugestões de pesquisa devem ser relevantes e precisas, refletindo categorias ou produtos disponíveis no site que correspondam aos termos inseridos pelos usuários.
 
+#### 4.4.3 - Informações do Defeito - Itens por categoria
+
+- **Título**: Item irrelevante (aspirador smart) listado na categoria de TV e Smart TV
+- **Responsável pela Identificação**: Luiz Fernando Sacht
+
+##### Descrição
+
+Durante o teste da ferramenta de itens por categoria no site da Casa & Video, identificamos um problema significativo: um aspirador smart foi listado na categoria de TV e Smart TV. Essa discrepância levanta preocupações sobre a precisão e relevância dos resultados fornecidos pela ferramenta.
+
+##### Criticidade
+
+- **Nível**: Média
+- **Impacto**: A presença de itens irrelevantes pode confundir os usuários e comprometer a credibilidade da ferramenta de itens por categoria, afetando negativamente a experiência do usuário.
+
+##### Passos para Reproduzir
+
+1. Acesse o site da Casa & Video.
+2. Navegue até a seção de categorias.
+3. Selecione a categoria de TV e Smart TV.
+4. Observe a lista de itens exibidos.
+
+##### Resultados Esperados
+
+Os itens listados na categoria de TV e Smart TV devem ser relevantes e estar relacionados a produtos de televisão e dispositivos inteligentes, proporcionando uma experiência de compra consistente e intuitiva para os usuários.
+
 ### 4.5 - Integrantes
 
 Alunos                      | Professora                       | Turma    | Matéria
