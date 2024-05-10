@@ -38,7 +38,7 @@ Esta seção irá apresentar os testes escolhidos para cada iteração do projet
 
 ### 3.1 - Requisito: Itens de promoção
 
-# Exploratory Testing: 
+## Exploratory Testing: 
 
 Nosso grupo decidiu realizar o teste de um item de promoção no site da Casa & Video utilizando a técnica de Exploratory Testing. Essa abordagem de teste ad hoc nos permite explorar o sistema de forma livre, descobrindo possíveis defeitos e problemas que podem não ter sido identificados em testes formais.
 
