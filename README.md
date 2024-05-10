@@ -2,12 +2,11 @@
 
 **CASA & VIDEO**
 
-
-## 1 - Introdução
-
 # Sobre Casa & Video
 
 O site da Casa & Video oferece uma ampla variedade de produtos para o lar, desde eletrodomésticos até itens de decoração. Criado com o objetivo de fornecer uma plataforma conveniente e acessível para compras online, a Casa & Video atende às necessidades dos consumidores que buscam qualidade, variedade e preços competitivos para equipar e decorar suas casas.
+
+## 1 - Introdução
 
 Este documento descreve o plano de testes para o site da Casa & Vídeo. O objetivo deste plano é garantir que todas as funcionalidades do site estejam funcionando corretamente, proporcionando uma experiência de compra satisfatória aos usuários.
 
