@@ -27,9 +27,9 @@ Os seguintes requisitos serão testados durante a execução deste plano:
 
  |Requisito  | Descrição                                          |
  |-----------|----------------------------------------------------|
- |REQ-001    | Barra de busca                                     |
+ |REQ-001    | Itens de promoção                                  |
  |REQ-002    | Itens por categoria                                |
- |REQ-003    | Itens de promoção                                  |
+ |REQ-003    | Barra de busca                                     |
  
  
 ## 3 - Testes
