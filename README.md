@@ -630,12 +630,6 @@ Esta seção deve descrever os recursos humanos (integrantes) e de ambiente de t
 |---------------------------|----------------------------------------------------|
 | Windows 11 Pro 64-bit     | Google Chrome                                      |
 
-
-### 4.2 - Ferramenta de teste
-
-Descreva aqui as ferramentas específicas de teste usadas no projeto.
-
-
 ## 4.3 - Integrantes
 
 Alunos                      | Professora                       | Turma    | Matéria
