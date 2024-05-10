@@ -137,11 +137,40 @@ O teste de Exploratory Testing nos permitiu descobrir um problema relevante que 
 
 
 
-### 3.2 - Requisito 2: Barra de busca
+### 3.2 - Requisito 2: Barra de Pesquisa
 
-Para teste de integridade de dados e do banco de dados.
-Aqui deve-se verificar se os dados não se perdem ao desligar o programa. Se o programa consegue se recuperar em caso de falha ou fechamento repentino.
-Se possível usar teste automatizado.
+#### Exploratory Testing:
+
+Nosso grupo decidiu realizar o teste da barra de busca de itens no site da Casa & Video utilizando a técnica de Exploratory Testing. Essa abordagem de teste ad hoc nos permite explorar o sistema de forma livre, descobrindo possíveis defeitos e problemas que podem não ter sido identificados em testes formais.
+
+#### Utilização da Técnica:
+
+Ao acessar o site da Casa & Video, focamos em interagir com a barra de busca de itens localizada na parte superior da página. Em vez de seguir um roteiro de teste predefinido, utilizamos nossa experiência e conhecimento para explorar diferentes funcionalidades e cenários de uso da barra de busca.
+
+#### Teste da Barra de Pesquisa:
+
+Durante nossos testes, observamos o comportamento da barra de busca ao inserir termos e palavras-chave relacionados aos produtos disponíveis no site. Verificamos também a resposta da barra de busca ao fornecer sugestões de pesquisa e ao aplicar filtros avançados ou refinamentos de busca.
+
+#### Critérios de Teste:
+
+- **Presença e Acessibilidade**: Verificamos se a barra de busca estava presente em todas as páginas do site e se era facilmente acessível aos usuários.
+- **Funcionalidade da Busca**: Testamos se a busca retornava resultados relevantes e precisos com base nos termos inseridos pelos usuários.
+- **Sugestões de Pesquisa e Filtros**: Avaliamos a funcionalidade de sugestões de pesquisa e a capacidade de aplicar filtros avançados ou refinamentos de busca.
+
+#### Níveis de Criticidade de Defeitos:
+
+- **Baixa**: Defeitos que têm pouco impacto na usabilidade geral do site, como discrepâncias menores na exibição dos resultados da busca.
+- **Média**: Defeitos que afetam parcialmente a funcionalidade da barra de busca, como sugestões de pesquisa imprecisas.
+- **Alta**: Defeitos que impedem significativamente o uso da barra de busca, como falha total na funcionalidade de sugestões ou resultados de busca incorretos.
+
+#### Resultados e Ações:
+
+Após conduzirmos os testes da barra de busca de itens, documentamos nossas descobertas e compartilhamos com a equipe de desenvolvimento. Recomendamos ajustes para melhorar a precisão dos resultados da busca e aprimorar a experiência do usuário durante a navegação pelo site.
+
+#### Conclusão:
+
+O teste de Exploratory Testing nos permitiu identificar potenciais problemas na barra de busca de itens do site da Casa & Video. Essa abordagem flexível e baseada na experiência é essencial para garantir a qualidade e a usabilidade do sistema, contribuindo para uma melhor experiência do usuário e maior satisfação ao realizar buscas por produtos no site.
+
 
 <br/>
 <table>
