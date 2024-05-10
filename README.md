@@ -624,6 +624,15 @@ Esta seção deve descrever os recursos humanos (integrantes) e de ambiente de t
 |-------------------- |-------------------------|-------------|----------------|
 | CPU Pessoal         | Intel Core i5 9400F     | 16 GB       | Gtx 1660 Super |
 
+### 4.2 - Ambiente de teste - Software
+
+| Sistema Operacional   | Navegador(es)      |
+|-----------------------|--------------------|
+| Windows 11 Pro 64-bit | Google Chrome (x)  |
+|                       | Microsoft Edge ( ) |
+|                       | Mozilla Firefox ( )|
+
+
 ### 4.2 - Ferramenta de teste
 
 Descreva aqui as ferramentas específicas de teste usadas no projeto.
