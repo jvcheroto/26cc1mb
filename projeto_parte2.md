@@ -40,23 +40,23 @@
 - **Cenário de Teste 04: Proceder para o checkout**
   - CT01: [Itens no Carrinho: "TV 40 Polegadas" (2), "Notebook 15 Polegadas" (1), Resultado Esperado: Usuário redirecionado para a página de checkout com os itens corretos e resumo do pedido]
 
+## RF003:  Exibição Correta do Catálogo de Produtos
+- **Cenário de Teste 01: Verificação da Exibição Correta do Catálogo de Produtos**
+  - CT01: [Dado de Entrada: Acesso à categoria "Televisões e Smart TVs". Resultado Esperado: Exibição de produtos apenas da categoria "Televisões e Smart TVs".]
+  - CT02: [Dado de Entrada: Navegação dentro da categoria "Televisões e Smart TVs". Resultado Esperado: Não deve haver produtos de outras categorias, como aspiradores de pó.]
+
+- **Cenário de Teste 02: Indicação de Produtos Indisponíveis**
+  - CT01: [Dado de Entrada: Produto marcado como indisponível no sistema. Resultado Esperado: Exibição de uma mensagem clara indicando que o produto está indisponível para compra.]
+  - CT02: [Dado de Entrada: Busca por um produto que está indisponível. Resultado Esperado: Produto deve aparecer na busca com uma indicação de indisponibilidade.]
+
 # 2 - Requisitos Não Funcionais (RNF):
 
-## RNF001: Compatibilidade de Navegadores
-- **Cenário de Teste 01: Acessar o portal**
-  - CT 01: [Acessar o portal via Google Chrome], [Acesso feito com sucesso]
-  - CT 02: [Acessar o portal via Microsoft Edge], [Acesso feito com sucesso]
-  - CT 03: [Acessar o portal via Mozilla Firefox], [Acesso feito com sucesso]
-  - CT 04: [Acessar o portal via Safari], [Acesso feito com sucesso]
-  - CT 05: [Acessar o portal via Opera GX], [Acesso feito com sucesso]
-  - **OBS:** Não foi realizado em todos os navegadores existentes, mas os citados acima são os mais comuns e funcionaram.
+## RNF01: Desempenho de Carregamento de Páginas
+- **Cenário de Teste 01: Teste de desempenho de carregamento do catálogo de produtos**
+  - CT 01: [Dado de Entrada: Acesso ao catálogo de produtos. Resultado Esperado: A página deve carregar em no máximo 2 segundos.]
 
-- **Cenário de Teste 02: Uso de diferentes guias**
-  - CT 01: [Abrir uma tela interna em uma nova guia], [Mantém o login atual]
-  - CT 02: [Duplicar a guia], [Mantém a mesma tela e progresso de um determinado processo na guia que foi duplicada]
-  - CT 03: [Abrir uma tela interna em uma guia anônima], [A opção fica desabilitada]
-  - CT 04: [Fazer login em outro cliente em uma nova guia], [A sessão anterior é desconectada, mantêm-se a nova]
-  - CT 05: [Abrir o mesmo cliente ou outro cliente em uma guia anônima], [Não interrompe nem atrapalha a navegação que não é anônima]
+- **Cenário de Teste 02: Verificação da integridade e segurança dos dados dos produtos**
+  - CT 01: [Dado de Entrada: Tentativa de alteração não autorizada dos dados de um produto. Resultado Esperado: O sistema deve prevenir alterações não autorizadas e garantir a segurança dos dados.]
 
 - **Cenário de Teste 03: Navegadores distintos**
   - CT 01: [Fazer o mesmo login em navegadores distintos], [Mantém a mesma conta logada nos diferentes navegadores]
@@ -64,30 +64,32 @@
   - CT 03: [Abrir o mesmo cliente ou outro cliente em uma guia anônima], [Não interrompe nem atrapalha a navegação no primeiro navagador]
 
 
-## RNF002: Integração
-- **Cenário de Teste 01: Integração via SOAP/API Rest (SoapUI/Postman) - externo à plataforma**
-  - CT 01: [Enviar usuário e senha de integração corretos], [Código 200 (OK)]
-  - CT 02: [Enviar usuário correto e senha em branco], [Erro: Código 401 (Unauthorized)]
-  - CT 03: [Enviar usuário em branco e senha correta], [Erro: Código 401 (Unauthorized)]
-  - CT 04: [Não preencher as credenciais], [Erro: Código 401 (Unauthorized)]
-  - CT 05: [Não enviar a tag de integração], [Nos programas aparece código 200 (OK), porém a integração não é feita na plataforma]
-    - **Resposta da plataforma:** "Não existe ID relacionado à TAG:"
-  - CT 06: [Enviar um valor não válido na tag de integração], [Nos programas aparece código 200 (OK), porém a integração não é feita na plataforma]
-    - **Resposta da plataforma:** "Não existe ID relacionado à TAG: TESTE"
-  - CT 07: [Não enviar uma tag obrigatória (Ex.: REQUISICAOCLIENTE)], [Nos programas aparece código 200 (OK), porém a integração não é feita na plataforma]
-    - **Resposta da plataforma:** "Erro na entrada de requisição 0: Numero da requisicao cliente não informado."
-  - CT 08: [Enviar uma tag incorreta], [Erro: Código 400 (Bad Request)]
-  - CT 09: [Enviar uma tag que não existe], [A integração é feita com sucesso (Código 200), logo a plataforma apenas ignorou a tag inexistente]
+## RNF02: Segurança
+- **Cenário de teste 01: Teste de login seguro**
+  - CT 01: [Tentar fazer login com credenciais válidas, conexão SSL ativada]
+  - CT 02: [Tentar fazer login com credenciais inválidas, conexão SSL ativada]
+  - CT 03: [Tentar fazer login sem HTTPS, conexão não permitida]
+  
+- **Cenário de teste 02: Teste de checkout seguro**
+  - CT 01: [Adicionar itens ao carrinho e proceder para o checkout, conexão SSL ativada]
+  - CT 02: [Tentar acessar informações de checkout sem HTTPS, conexão não permitida]
+  - CT 03: [Realizar transação de pagamento, conexão SSL ativada]
 
-- **Cenário de Teste 02: Integração via Planilhas do Excel (Cargas) - interno à plataforma**
-  - CT 01: [Enviar todas as colunas e abas com os devidos nomes e valores válidos e aceitos], [Status Processado]
-    - **OBS:** A plataforma utiliza a terminologia *"Processado"* para indicar sucesso no envio da carga.
-  - CT 02: [Enviar com dados inválidos], [Erro: Status Erro]
-  - CT 03: [Enviar sem abas obrigatórias], [Erro: Status Erro]
-  - CT 04: [Enviar sem colunas obrigatórias], [Erro: Status Erro]
-  - CT 05: [Enviar tipo de dado incorretos em determinadas colunas], [Erro: Status Erro]
-  - CT 06: [Enviar coluna inexistente], [Erro: Status Erro]
+## RNF03: Confiabilidade
+- **Cenário de teste 01: Teste de estabilidade do servidor**
+  - CT 01: [Simular 100 usuários acessando simultaneamente a página inicial do site durante 1 hora, garantindo que o tempo de resposta médio seja inferior a 3 segundos.]
+  - CT 02: [Aumentar gradualmente a carga de 500 para 1000 usuários em um período de 2 horas e verificar se não há aumento significativo no tempo de resposta ou erros de servidor.]
+  - CT 03: [Simular um pico de tráfego repentino dobrando o número de usuários ativos em 5 minutos e monitorar como o servidor responde, garantindo que o sistema não fique sobrecarregado e continue operacional.]
+  
+- **Cenário de teste 02: Teste de backup e recuperação**
+  - CT 01: [Realizar um backup completo dos dados do site e restaurá-lo em um ambiente de teste, verificando se todos os dados são recuperados corretamente e nenhum dado é perdido durante o processo.]
+  - CT 02: [Simular uma falha no servidor principal e iniciar o processo de recuperação a partir do último backup, garantindo que o tempo de recuperação seja inferior a 1 hora e todos os serviços sejam restaurados.]
+  - CT 03: [Testar a validade dos backups realizados verificando se os arquivos de backup estão completos, não corrompidos e podem ser restaurados conforme necessário.]
 
+- **Cenário de teste 03: Teste de disponibilidade**
+  - CT 01: [Monitorar o tempo de atividade do site 24/7, registrando qualquer interrupção de serviço e garantindo que o tempo de inatividade total seja inferior a 1 hora por mês.]
+  - CT 02: [Testar o failover para servidores de backup em caso de falha do servidor principal, garantindo uma transição suave e que os usuários não percebam a mudança de servidor.]
+  - CT 03: [Realizar testes de recuperação de desastres simulando situações de emergência, como ataques DDoS, e garantir que o site permaneça acessível e funcional durante e após o evento.]
 
 # 3 - Componentes:
 
