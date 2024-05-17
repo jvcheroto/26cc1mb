@@ -1,49 +1,44 @@
 
 # 1 - Requisitos Funcionais (RF):
 
-## RF001: Carrinho de Compras
-- **Cenário de Teste 01: Campo de Quantidade**
-  - CT 01: [Dígitos numéricos], [Quantidade alterada com sucesso]
-  - CT 02: [Dígitos alfabéticos], [Erro: Não reconhece entrada alfabética]
-  - CT 03: [Ponto flutuante], [Erro: Não reconhece ponto flutuante]
-  - CT 04: [Caracteres especiais], [Erro: Não reconhece caracteres especiais]
+## RF001: Cadastro de usuário
+- **Cenário de Teste 01: Cadastro com dados válidos**
+  - CT01: [Nome: "João Silva", Email: "joao.silva@example.com", Senha: "Senha123!", Confirmação de Senha: "Senha123!", Resultado Esperado: Cadastro realizado com sucesso, e-mail de confirmação enviado]
+  - CT02: [Nome: "Maria Santos", Email: "maria.santos@example.com", Senha: "Senha@456", Confirmação de Senha: "Senha@456", Resultado Esperado: Cadastro realizado com sucesso, e-mail de confirmação enviado]
 
 
-- **Cenário de Teste 02: Valores aceitos**
-  - CT 01: [Números entre 1 e 999.999.999, incluindo-os], [Quantidade aceita]
-  - CT 02: [Valor igual a zero], [Erro: O sistema retorna automaticamente para 1]
-  - CT 03: [Número maior que 999.999.999], [Erro: O sistema altera automaticamente para 999.999.999 e bloqueia novos dígitos]
-  - CT 04: [Números negativos], [Erro: O sistema não reconhece o símbolo '-' que indica valores negativos]
-  - CT 05: [Deixar em branco], [Erro: Não acontece nada a princípio, mas ao minimizar o carrinho, ele retorna ao valor que estava antes de apagar tudo]
-
-- **Cenário de Teste 03: Botões de '+' e '-'**
-  - CT 01: [Valor atual igual a 1], [Botão '-' fica desabilitado e o botão '+' fica habilitado]
-  - CT 02: [Valor atual igual a 999.999.999], [O botão '+' fica desabilitado e o botão '-' fica habilitado]
-  - CT 03: [Valor entre 1 e 999.999.999, excluindo-os], [A quantidade é adicionada de 1 em 1 pelo botão '+' e subtraída de 1 em 1 pelo botão '-']
-  - CT 04: [Clicar no botão desabilitado], [Nada acontece com a quantidade]
-  - CT 05: [Digitar uma quantidade válida e apertar um dos botões], [É adicionada/subtraída de 1 em 1 a partir da quantidade digitada]
+- **Cenário de Teste 02: Cadastro com e-mail inválido**
+  - CT01: [Nome: "Ana Pereira", Email: "ana.pereiraexample.com", Senha: "Senha789!", Confirmação de Senha: "Senha789!", Resultado Esperado: Mensagem de erro "Formato de e-mail inválido"]
+  - CT02: [Nome: "Carlos Lima", Email: "carlos.lima@.com", Senha: "Senha@101", Confirmação de Senha: "Senha@101", Resultado Esperado: Mensagem de erro "Formato de e-mail inválido"]
 
 
-## RF002: Personalizar Tela de Login
-- **Cenário de Teste 01: Formatos de imagem**
-  - CT 01: [Enviar imagem no formato PNG], [Formato aceito]
-  - CT 02: [Enviar imagem no formato JPG], [Formato aceito]
-  - CT 03: [Enviar imagem no formato GIF], [Formato aceito]
-  - CT 04: [Enviar imagem no formato SVG], [Erro: Formato não aceito]
-  - CT 05: [Enviar imagem no formato WEBP], [Erro: Formato não aceito]
-  - CT 06: [Enviar formatos de texto como PDF, DOCX, XLSX, PPTX, etc.], [Erro: Formatos não aceitos]
-  - CT 07: [Enviar formatos de vídeo como MP4, MOV, WMV, etc.], [Erro: Formatos não aceitos]
-  - CT 08: [Enviar formatos de áudio como MP3, WMA, WAV, etc.], [Erro: Formatos não aceitos]
+- **Cenário de Teste 03: Cadastro com senhas não correspondentes**
+  - CT01: [Nome: "Pedro Sousa", Email: "pedro.sousa@example.com", Senha: "Senha202", Confirmação de Senha: "Senha303", Resultado Esperado: Mensagem de erro "As senhas não correspondem"]
+  - CT02: [Nome: "Rita Nunes", Email: "rita.nunes@example.com", Senha: "Senha@404", Confirmação de Senha: "Senha@505", Resultado Esperado: Mensagem de erro "As senhas não correspondem"]
+ 
+- **Cenário de Teste 04: Cadastro com senha fraca**
+  - CT01: [Nome: "Laura Dias", Email: "laura.dias@example.com", Senha: "1234", Confirmação de Senha: "1234", Resultado Esperado: Mensagem de erro "A senha deve ter pelo menos 8 caracteres, incluindo letras maiusculas, minúsculas e números"]
+  - CT02: [Nome: "Fabio Melo", Email: "fabio.melo@example.com", Senha: "abcdef", Confirmação de Senha: "abcdef", Resultado Esperado: Mensagem de erro "A senha deve ter pelo menos 8 caracteres, incluindo letras maiusculas, minúsculas e números"]
 
-- **Cenário de Teste 02: Dimensão da imagem**
-  - CT 01: [Enviar imagens com dimensões entre 1x1 e 9.000x9.000], [Dimensões aceitas]
-  - **OBS<sub>1</sub>:** Não foram encontrados exemplos o suficiente para realizar os testes, mas para dimensões usuais o sistema se mostrou capaz de suportá-las.
-  - **OBS<sub>2</sub>:** Algumas dimensões, por não serem no padrão da tela do navegador, acabaram desformatando as imagens.
 
-- **Cenário de Teste 03: Tamanho da imagem**
-  - CT 01: [Enviar imagens de 8,53MB], [Dimensão aceita]
-  - **OBS:** Não foram encontrados exemplos o suficiente para realizar os testes, mas para tamanhos usuais o sistema se mostrou capaz de suportá-los.
 
+
+## RF002: Carrinho de Compras
+- **Cenário de Teste 01: Adicionar produtos ao carrinho**
+  - CT01: [Produto: "TV 40 Polegadas", Quantidade: 1, Resultado Esperado: Produto adicionado ao carrinho com sucesso]
+  - CT02: [Produto: "Notebook 15 Polegadas", Quantidade: 1, Resultado Esperado: Produto adicionado ao carrinho com sucesso]
+
+
+- **Cenário de Teste 02: Editar a quantidade de produtos no carrinho**
+  - CT01 [Produto: "TV 40 Polegadas", Quantidade Inicial: 1, Quantidade Editada: 2, Resultado Esperado: Quantidade de produtos atualizada no carrinho]
+  - CT02: [Produto: "Notebook 15 Polegadas", Quantidade Inicial: 1, Quantidade Editada: 3, Resultado Esperado: Quantidade de produtos atualizada no carrinho]
+
+- **Cenário de Teste 03: Remover itens do carrinho**
+  - CT01: [Produto: "TV 40 Polegadas", Ação: Remover, Resultado Esperado: Produto removido do carrinho]
+  - CT02: [Produto: "Notebook 15 Polegadas", Ação: Remover, Resultado Esperado: Produto removido do carrinho]
+
+- **Cenário de Teste 04: Proceder para o checkout**
+  - CT01: [Itens no Carrinho: "TV 40 Polegadas" (2), "Notebook 15 Polegadas" (1), Resultado Esperado: Usuário redirecionado para a página de checkout com os itens corretos e resumo do pedido]
 
 # 2 - Requisitos Não Funcionais (RNF):
 
@@ -96,11 +91,8 @@
 
 # 3 - Componentes:
 
-| Aluno                     | Professora                | Turma | Disciplina                     |
-| ------------------------- | ------------------------- | ----- | ------------------------------ |
-| Vinícius Frigulha Ribeiro | Gabriela Martins de Jesus | CC5N  | Qualidade e Testes de Software |
-
-# 4 - Link do GitHub
-
-[Projeto de Testes](https://github.com/vinifrigulha/UVV/blob/main/Qualidade%20de%20Testes/projeto_parte2.md)
-
+| Aluno                        | Professora                | Turma | Disciplina                     |
+| ---------------------------- | ------------------------- | ----- | ------------------------------ |
+| João Victor Piumbini Cheroto | Gabriela Martins de Jesus | CC5N  | Qualidade e Testes de Software |
+| Rodrigo da Cunha             | Gabriela Martins de Jesus | CC5N  | Qualidade e Testes de Software |
+| Luiz Fernando Sacht          | Gabriela Martins de Jesus | CC5N  | Qualidade e Testes de Software |
