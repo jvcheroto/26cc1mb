@@ -214,10 +214,10 @@ O Exploratory Testing nos permitiu identificar potenciais problemas na barra de 
             Técnica
         </th>
         <th colspan="2">
-            Caixa branca ( )
+            Estrutural ( )
         </th>
         <th colspan="2">
-            Caixa preta (x)
+            Funcional (x)
         </th>
     </tr>
     <tr>
@@ -308,10 +308,10 @@ O teste de Exploratory Testing revelou uma discrepância significativa na ferram
             Técnica
         </th>
         <th colspan="2">
-            Caixa branca ( )
+            Estrutural ( )
         </th>
         <th colspan="2">
-            Caixa preta (x)
+            Funcional (x)
         </th>
     </tr>
     <tr>
@@ -394,10 +394,10 @@ O teste de unidade do Cadastro de Usuário permite verificar a funcionalidade es
             Abordagem do teste
         </th>
         <th colspan="2">
-            Caixa branca ( )
+            Estrutural ( )
         </th>
         <th colspan="2">
-            Caixa preta (x)
+            Funcional (x)
         </th>
     </tr>
     <tr>
@@ -486,10 +486,10 @@ O teste de aceitação do Carrinho de Compras revelou uma limitação na funcion
             Técnica
         </th>
         <th colspan="2">
-            Caixa branca ( )
+            Estrutural ( )
         </th>
         <th colspan="2">
-            Caixa preta (x)
+            Funcional (x)
         </th>
     </tr>
     <tr>
@@ -583,10 +583,10 @@ O teste de Disponibilidade de Produtos revelou áreas de melhoria no sistema da 
             Técnica
         </th>
         <th colspan="2">
-            Caixa branca ( )
+            Estrutural ( )
         </th>
         <th colspan="2">
-            Caixa preta (x)
+            Funcional  (x)
         </th>
     </tr>
     <tr>
