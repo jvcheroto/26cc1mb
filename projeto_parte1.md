@@ -90,7 +90,7 @@ O teste de Exploratory Testing nos permitiu descobrir um problema relevante que 
     </tr>
     <tr>
         <th>
-            Técnica:
+            Método de execução:
         </th>
         <th colspan="2">
             (x) manual
