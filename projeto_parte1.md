@@ -90,7 +90,7 @@ O teste de Exploratory Testing nos permitiu descobrir um problema relevante que 
     </tr>
     <tr>
         <th>
-            Método de execução:
+            Método de execução
         </th>
         <th colspan="2">
             (x) manual
@@ -185,7 +185,7 @@ O Exploratory Testing nos permitiu identificar potenciais problemas na barra de 
     </tr>
     <tr>
         <th>
-            Técnica:
+            Método de execução
         </th>
         <th colspan="2">
             ( ) manual
@@ -196,7 +196,7 @@ O Exploratory Testing nos permitiu identificar potenciais problemas na barra de 
     </tr>
     <tr>
         <th>
-            Estágio do teste
+            Nível de Teste
         </th>
         <th>
             Integração ( )
@@ -207,13 +207,11 @@ O Exploratory Testing nos permitiu identificar potenciais problemas na barra de 
         <th>
             Unidade ( )
         </th>
-        <th>
-            Aceitação ( )
-        </th>
-    </tr>
+      
+   </tr>
     <tr>
         <th>
-            Abordagem do teste
+            Técnica
         </th>
         <th colspan="2">
             Caixa branca ( )
@@ -281,7 +279,7 @@ O teste de Exploratory Testing revelou uma discrepância significativa na ferram
     </tr>
     <tr>
         <th>
-            Técnica:
+            Método de execução
         </th>
         <th colspan="2">
             ( ) manual
@@ -292,7 +290,7 @@ O teste de Exploratory Testing revelou uma discrepância significativa na ferram
     </tr>
     <tr>
         <th>
-            Estágio do teste
+            Nível de Teste
         </th>
         <th>
             Integração ( )
@@ -303,13 +301,11 @@ O teste de Exploratory Testing revelou uma discrepância significativa na ferram
         <th>
             Unidade ( )
         </th>
-        <th>
-            Aceitação (x)
-        </th>
-    </tr>
+       
+   </tr>
     <tr>
         <th>
-            Abordagem do teste
+            Técnica
         </th>
         <th colspan="2">
             Caixa branca ( )
@@ -369,7 +365,7 @@ O teste de unidade do Cadastro de Usuário permite verificar a funcionalidade es
     </tr>
     <tr>
         <th>
-            Técnica:
+            Método de execução
         </th>
         <th colspan="2">
             ( ) manual
@@ -380,7 +376,7 @@ O teste de unidade do Cadastro de Usuário permite verificar a funcionalidade es
     </tr>
     <tr>
         <th>
-            Estágio do teste
+           Técnica
         </th>
         <th>
             Integração ( )
@@ -391,10 +387,8 @@ O teste de unidade do Cadastro de Usuário permite verificar a funcionalidade es
         <th>
             Unidade (x)
         </th>
-        <th>
-            Aceitação ( )
-        </th>
-    </tr>
+       
+   </tr>
     <tr>
         <th>
             Abordagem do teste
@@ -463,7 +457,7 @@ O teste de aceitação do Carrinho de Compras revelou uma limitação na funcion
     </tr>
     <tr>
         <th>
-            Técnica:
+           Método de execução
         </th>
         <th colspan="2">
             ( ) manual
@@ -474,7 +468,7 @@ O teste de aceitação do Carrinho de Compras revelou uma limitação na funcion
     </tr>
     <tr>
         <th>
-            Estágio do teste
+            Nível de Teste
         </th>
         <th>
             Integração ( )
@@ -485,13 +479,11 @@ O teste de aceitação do Carrinho de Compras revelou uma limitação na funcion
         <th>
             Unidade (x)
         </th>
-        <th>
-            Aceitação ( )
-        </th>
-    </tr>
+       
+   </tr>
     <tr>
         <th>
-            Abordagem do teste
+            Técnica
         </th>
         <th colspan="2">
             Caixa branca ( )
@@ -562,7 +554,7 @@ O teste de Disponibilidade de Produtos revelou áreas de melhoria no sistema da 
     </tr>
     <tr>
         <th>
-            Técnica:
+            Método de execução
         </th>
         <th colspan="2">
             ( ) manual
@@ -573,7 +565,7 @@ O teste de Disponibilidade de Produtos revelou áreas de melhoria no sistema da 
     </tr>
     <tr>
         <th>
-            Estágio do teste
+            Nível de Teste
         </th>
         <th>
             Integração ( )
@@ -584,13 +576,11 @@ O teste de Disponibilidade de Produtos revelou áreas de melhoria no sistema da 
         <th>
             Unidade (x)
         </th>
-        <th>
-            Aceitação ( )
-        </th>
-    </tr>
+        
+   </tr>
     <tr>
         <th>
-            Abordagem do teste
+            Técnica
         </th>
         <th colspan="2">
             Caixa branca ( )
