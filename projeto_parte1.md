@@ -101,7 +101,7 @@ O teste de Exploratory Testing nos permitiu descobrir um problema relevante que 
     </tr>
     <tr>
         <th>
-            Estágio do teste
+            Nível de Teste
         </th>
         <th>
             Integração ( )
@@ -118,7 +118,7 @@ O teste de Exploratory Testing nos permitiu descobrir um problema relevante que 
     </tr>
     <tr>
         <th>
-            Abordagem do teste
+            Técnica
         </th>
         <th colspan="2">
             Caixa branca ( )
