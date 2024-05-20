@@ -16,7 +16,7 @@
   - CT01: [Nome: "Pedro Sousa", Email: "pedro.sousa@example.com", Senha: "Senha202", Confirmação de Senha: "Senha303", Resultado Esperado: Mensagem de erro "As senhas não correspondem"]
   - CT02: [Nome: "Rita Nunes", Email: "rita.nunes@example.com", Senha: "Senha@404", Confirmação de Senha: "Senha@505", Resultado Esperado: Mensagem de erro "As senhas não correspondem"]
  
-- **Cenário de Teste 04: Cadastro com senha fraca**
+- **Cenário de Teste 04: Teste de cadastro com senha "fraca"**
   - CT01: [Nome: "Laura Dias", Email: "laura.dias@example.com", Senha: "1234", Confirmação de Senha: "1234", Resultado Esperado: Mensagem de erro "A senha deve ter pelo menos 8 caracteres, incluindo letras maiusculas, minúsculas e números"]
   - CT02: [Nome: "Fabio Melo", Email: "fabio.melo@example.com", Senha: "abcdef", Confirmação de Senha: "abcdef", Resultado Esperado: Mensagem de erro "A senha deve ter pelo menos 8 caracteres, incluindo letras maiusculas, minúsculas e números"]
 
