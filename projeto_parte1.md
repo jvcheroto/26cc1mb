@@ -92,10 +92,10 @@ O teste de Exploratory Testing nos permitiu descobrir um problema relevante que 
         <th style="width: 30%;">
             Método de execução
         </th>
-        <th colspan="2" style="width: 20%;">
+        <th colspan="2">
             (x) manual
         </th>
-        <th colspan="2" style="width: 20%;">
+        <th colspan="2">
             ( ) automática
         </th>
     </tr>
@@ -103,13 +103,13 @@ O teste de Exploratory Testing nos permitiu descobrir um problema relevante que 
         <th style="width: 30%;">
             Nível de Teste
         </th>
-        <th style="width: 20%;">
+        <th colspan="2">
             Integração ( )
         </th>
-        <th style="width: 20%;">
+        <th colspan="2">
             Sistema ( )
         </th>
-        <th style="width: 20%;">
+        <th colspan="2">
             Unidade (x)
         </th>
     </tr>
@@ -117,10 +117,10 @@ O teste de Exploratory Testing nos permitiu descobrir um problema relevante que 
         <th style="width: 30%;">
             Técnica
         </th>
-        <th colspan="2" style="width: 20%;">
+        <th colspan="2">
             Estrutural ( )
         </th>
-        <th colspan="2" style="width: 20%;">
+        <th colspan="2">
             Funcional (x)
         </th>
     </tr>
@@ -134,8 +134,6 @@ O teste de Exploratory Testing nos permitiu descobrir um problema relevante que 
     </tr>
 </table>
 <br/>
-
-
 
 ### 3.2 - Requisito 2: Barra de Pesquisa
 
