@@ -2,7 +2,7 @@
 # 1 - Requisitos Funcionais (RF):
 
 ## RF001: Cadastro de usuário
-- **Cenário de Teste 01: Cadastro com dados válidos**
+- **Cenário de Teste 01: Cadastro de conta usando dados válidos**
   - CT01: [Nome: "João Silva", Email: "joao.silva@example.com", Senha: "Senha123!", Confirmação de Senha: "Senha123!", Resultado Esperado: Cadastro realizado com sucesso, e-mail de confirmação enviado]
   - CT02: [Nome: "Maria Santos", Email: "maria.santos@example.com", Senha: "Senha@456", Confirmação de Senha: "Senha@456", Resultado Esperado: Cadastro realizado com sucesso, e-mail de confirmação enviado]
 
