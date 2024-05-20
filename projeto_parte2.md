@@ -8,8 +8,8 @@
 
 
 - **Cenário de Teste 02: Cadastro com e-mail inválido**
-  - CT01: [Nome: "Ana Pereira", Email: "ana.pereiraexample.com", Senha: "Senha789!", Confirmação de Senha: "Senha789!", Resultado Esperado: Mensagem de erro "Formato de e-mail inválido"]
-  - CT02: [Nome: "Carlos Lima", Email: "carlos.lima@.com", Senha: "Senha@101", Confirmação de Senha: "Senha@101", Resultado Esperado: Mensagem de erro "Formato de e-mail inválido"]
+  - CT01: [Nome: "Ana Pereira", Email: "ana.pereiraexample.com", Senha: "Senha789!", Confirmação de Senha: "Senha789!", Resultado Esperado: Mensagem de erro "Entre com um e-mail válido"]
+  - CT02: [Nome: "Carlos Lima", Email: "carlos.lima@.com", Senha: "Senha@101", Confirmação de Senha: "Senha@101", Resultado Esperado: Mensagem de erro "Entre com um e-mail válido"]
 
 
 - **Cenário de Teste 03: Cadastro com senhas não correspondentes**
