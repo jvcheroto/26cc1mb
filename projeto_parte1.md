@@ -93,10 +93,10 @@ O teste de Exploratory Testing nos permitiu descobrir um problema relevante que 
             Método de execução
         </th>
         <th colspan="2" style="border: 1px solid black;">
-            (x) manual
+            manual (x)
         </th>
         <th colspan="2" style="border: 1px solid black;">
-            ( ) automática
+             automática ( )
         </th>
     </tr>
     <tr>
@@ -104,27 +104,25 @@ O teste de Exploratory Testing nos permitiu descobrir um problema relevante que 
             Nível de Teste
         </th>
         <th style="border: 1px solid black;">
-            Integração
+            Integração ( )
         </th>
         <th style="border: 1px solid black;">
-            Sistema
+            Sistema ( )
         </th>
         <th style="border: 1px solid black;">
-            Unidade
+            Unidade (x)
         </th>
-        <th style="border: 1px solid black;">
-            Outra
-        </th>
-    </tr>
+       
+   </tr>
     <tr>
         <th style="width: 30%; border: 1px solid black;">
             Técnica
         </th>
         <th colspan="2" style="border: 1px solid black;">
-            Estrutural
+            Estrutural ( )
         </th>
         <th colspan="2" style="border: 1px solid black;">
-            Funcional
+            Funcional (x)
         </th>
     </tr>
     <tr>
