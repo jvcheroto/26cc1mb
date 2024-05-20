@@ -113,7 +113,7 @@ O teste de Exploratory Testing nos permitiu descobrir um problema relevante que 
             Unidade (x)
         </th>
         
-    </tr>
+   </tr>
     <tr>
         <th>
             Técnica
