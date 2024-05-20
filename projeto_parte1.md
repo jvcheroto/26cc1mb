@@ -112,9 +112,7 @@ O teste de Exploratory Testing nos permitiu descobrir um problema relevante que 
         <th>
             Unidade (x)
         </th>
-        <th>
-            Aceitação ( )
-        </th>
+        
     </tr>
     <tr>
         <th>
