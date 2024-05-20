@@ -135,6 +135,7 @@ O teste de Exploratory Testing nos permitiu descobrir um problema relevante que 
 </table>
 <br/>
 
+
 ### 3.2 - Requisito 2: Barra de Pesquisa
 
 #### Exploratory Testing:
