@@ -174,54 +174,53 @@ O Exploratory Testing nos permitiu identificar potenciais problemas na barra de 
 
 
 <br/>
-<table>
+<table style="width: 70%;">
     <tr>
-        <th>
+        <th style="width: 30%;">
             Objetivo
         </th>
         <th colspan="4">
-            Verificar os itens buscados serão precisos
+            Verificar se os itens buscados serão precisos
         </th>
     </tr>
     <tr>
-        <th>
+        <th style="width: 30%;">
             Método de execução
         </th>
-        <th colspan="2">
+        <th colspan="2" style="width: 20%;">
             ( ) manual
         </th>
-        <th colspan="2">
+        <th colspan="2" style="width: 20%;">
             (x) automática
         </th>
     </tr>
     <tr>
-        <th>
+        <th style="width: 30%;">
             Nível de Teste
         </th>
-        <th>
+        <th style="width: 20%;">
             Integração ( )
         </th>
-        <th>
+        <th style="width: 20%;">
             Sistema (x)
         </th>
-        <th>
+        <th style="width: 20%;">
             Unidade ( )
         </th>
-      
-   </tr>
+    </tr>
     <tr>
-        <th>
+        <th style="width: 30%;">
             Técnica
         </th>
-        <th colspan="2">
+        <th colspan="2" style="width: 20%;">
             Estrutural ( )
         </th>
-        <th colspan="2">
+        <th colspan="2" style="width: 20%;">
             Funcional (x)
         </th>
     </tr>
     <tr>
-        <th>
+        <th style="width: 30%;">
             Responsável(is)
         </th>
         <th colspan="4">
@@ -229,8 +228,7 @@ O Exploratory Testing nos permitiu identificar potenciais problemas na barra de 
         </th>
     </tr>
 </table>
-<br/>
-
+<br/
 
 ### 3.3 - Requisito 3: Itens por Categoria
 
