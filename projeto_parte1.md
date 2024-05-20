@@ -119,10 +119,10 @@ O teste de Exploratory Testing nos permitiu descobrir um problema relevante que 
             Técnica
         </th>
         <th colspan="2">
-            Caixa branca ( )
+            Estrutural ( )
         </th>
         <th colspan="2">
-            Caixa preta (x)
+            Funcional (x)
         </th>
     </tr>
     <tr>
