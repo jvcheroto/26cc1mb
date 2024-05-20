@@ -78,62 +78,62 @@ Após identificarmos a discrepância de preço no item de promoção, documentam
 
 O teste de Exploratory Testing nos permitiu descobrir um problema relevante que poderia ter passado despercebido em testes formais. Essa abordagem flexível e baseada na experiência é uma ferramenta valiosa para garantir a qualidade e a usabilidade do site da Casa & Video, ajudando a identificar e corrigir potenciais problemas antes que impactem negativamente os usuários.
 
-<br/>
-<table style="width: 70%;">
+<br>
+<table style="width: 70%; border-collapse: collapse;">
     <tr>
-        <th style="width: 30%;">
+        <th style="width: 30%; border: 1px solid black;">
             Objetivo
         </th>
-        <th colspan="4">
+        <th colspan="4" style="border: 1px solid black;">
             Verificar se o preço da compra é o mesmo do anunciado pelo site
         </th>
     </tr>
     <tr>
-        <th style="width: 30%;">
+        <th style="width: 30%; border: 1px solid black;">
             Método de execução
         </th>
-        <th colspan="2">
+        <th colspan="2" style="border: 1px solid black;">
             (x) manual
         </th>
-        <th colspan="2">
+        <th colspan="2" style="border: 1px solid black;">
             ( ) automática
         </th>
     </tr>
     <tr>
-        <th style="width: 30%;">
+        <th style="width: 30%; border: 1px solid black;">
             Nível de Teste
         </th>
-        <th colspan="2">
+        <th colspan="2" style="border: 1px solid black;">
             Integração ( )
         </th>
-        <th colspan="2">
+        <th colspan="2" style="border: 1px solid black;">
             Sistema ( )
         </th>
-        <th colspan="2">
+        <th colspan="2" style="border: 1px solid black;">
             Unidade (x)
         </th>
     </tr>
     <tr>
-        <th style="width: 30%;">
+        <th style="width: 30%; border: 1px solid black;">
             Técnica
         </th>
-        <th colspan="2">
+        <th colspan="2" style="border: 1px solid black;">
             Estrutural ( )
         </th>
-        <th colspan="2">
+        <th colspan="2" style="border: 1px solid black;">
             Funcional (x)
         </th>
     </tr>
     <tr>
-        <th style="width: 30%;">
+        <th style="width: 30%; border: 1px solid black;">
             Responsável(is)
         </th>
-        <th colspan="4">
+        <th colspan="4" style="border: 1px solid black;">
             João Victor Piumbini Cheroto
         </th>
     </tr>
 </table>
-<br/>
+<br>
 
 
 ### 3.2 - Requisito 2: Barra de Pesquisa
