@@ -78,8 +78,8 @@ Após identificarmos a discrepância de preço no item de promoção, documentam
 
 O teste de Exploratory Testing nos permitiu descobrir um problema relevante que poderia ter passado despercebido em testes formais. Essa abordagem flexível e baseada na experiência é uma ferramenta valiosa para garantir a qualidade e a usabilidade do site da Casa & Video, ajudando a identificar e corrigir potenciais problemas antes que impactem negativamente os usuários.
 
-<br>
 <table style="width: 70%; border-collapse: collapse;">
+    <caption style="caption-side: top; text-align: center; font-weight: bold; font-size: 1.2em;">Verificação de Preços</caption>
     <tr>
         <th style="width: 30%; border: 1px solid black;">
             Objetivo
@@ -103,14 +103,17 @@ O teste de Exploratory Testing nos permitiu descobrir um problema relevante que 
         <th style="width: 30%; border: 1px solid black;">
             Nível de Teste
         </th>
-        <th colspan="2" style="border: 1px solid black;">
-            Integração ( )
+        <th style="border: 1px solid black;">
+            Integração
         </th>
-        <th colspan="2" style="border: 1px solid black;">
-            Sistema ( )
+        <th style="border: 1px solid black;">
+            Sistema
         </th>
-        <th colspan="2" style="border: 1px solid black;">
-            Unidade (x)
+        <th style="border: 1px solid black;">
+            Unidade
+        </th>
+        <th style="border: 1px solid black;">
+            Outra
         </th>
     </tr>
     <tr>
@@ -118,10 +121,10 @@ O teste de Exploratory Testing nos permitiu descobrir um problema relevante que 
             Técnica
         </th>
         <th colspan="2" style="border: 1px solid black;">
-            Estrutural ( )
+            Estrutural
         </th>
         <th colspan="2" style="border: 1px solid black;">
-            Funcional (x)
+            Funcional
         </th>
     </tr>
     <tr>
@@ -133,8 +136,6 @@ O teste de Exploratory Testing nos permitiu descobrir um problema relevante que 
         </th>
     </tr>
 </table>
-<br>
-
 
 ### 3.2 - Requisito 2: Barra de Pesquisa
 
