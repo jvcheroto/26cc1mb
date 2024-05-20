@@ -79,9 +79,9 @@ Após identificarmos a discrepância de preço no item de promoção, documentam
 O teste de Exploratory Testing nos permitiu descobrir um problema relevante que poderia ter passado despercebido em testes formais. Essa abordagem flexível e baseada na experiência é uma ferramenta valiosa para garantir a qualidade e a usabilidade do site da Casa & Video, ajudando a identificar e corrigir potenciais problemas antes que impactem negativamente os usuários.
 
 <br/>
-<table>
+<table style="width: 70%;">
     <tr>
-        <th>
+        <th style="width: 30%;">
             Objetivo
         </th>
         <th colspan="4">
@@ -89,44 +89,43 @@ O teste de Exploratory Testing nos permitiu descobrir um problema relevante que 
         </th>
     </tr>
     <tr>
-        <th>
+        <th style="width: 30%;">
             Método de execução
         </th>
-        <th colspan="2">
+        <th colspan="2" style="width: 20%;">
             (x) manual
         </th>
-        <th colspan="2">
+        <th colspan="2" style="width: 20%;">
             ( ) automática
         </th>
     </tr>
     <tr>
-        <th>
+        <th style="width: 30%;">
             Nível de Teste
         </th>
-        <th>
+        <th style="width: 20%;">
             Integração ( )
         </th>
-        <th>
+        <th style="width: 20%;">
             Sistema ( )
         </th>
-        <th>
+        <th style="width: 20%;">
             Unidade (x)
         </th>
-        
-   </tr>
+    </tr>
     <tr>
-        <th>
+        <th style="width: 30%;">
             Técnica
         </th>
-        <th colspan="2">
+        <th colspan="2" style="width: 20%;">
             Estrutural ( )
         </th>
-        <th colspan="2">
+        <th colspan="2" style="width: 20%;">
             Funcional (x)
         </th>
     </tr>
     <tr>
-        <th>
+        <th style="width: 30%;">
             Responsável(is)
         </th>
         <th colspan="4">
