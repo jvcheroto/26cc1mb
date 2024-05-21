@@ -169,7 +169,6 @@ Após conduzirmos os testes da barra de busca de itens, documentamos nossas desc
 
 O Exploratory Testing nos permitiu identificar potenciais problemas na barra de busca de itens do site da Casa & Video. Essa abordagem flexível é baseada na experiência e será essencial para garantir a qualidade e a usabilidade do sistema, contribuindo para uma melhor experiência do usuário e maior satisfação ao realizar buscas por produtos no site.
 
-
 <br/>
 <table style="width: 70%;">
     <tr>
@@ -225,7 +224,7 @@ O Exploratory Testing nos permitiu identificar potenciais problemas na barra de 
         </th>
     </tr>
 </table>
-<br/
+<br/>
 
 ### 3.3 - Requisito 3: Itens por Categoria
 
