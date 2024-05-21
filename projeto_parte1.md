@@ -170,56 +170,56 @@ Após conduzirmos os testes da barra de busca de itens, documentamos nossas desc
 O Exploratory Testing nos permitiu identificar potenciais problemas na barra de busca de itens do site da Casa & Video. Essa abordagem flexível é baseada na experiência e será essencial para garantir a qualidade e a usabilidade do sistema, contribuindo para uma melhor experiência do usuário e maior satisfação ao realizar buscas por produtos no site.
 
 <br/>
-<table style="width: 70%; border-collapse: collapse;">
+<table style="width: 70%; border-collapse: collapse; margin-bottom: 20px;">
     <tr>
-        <th style="width: 30%; border: 1px solid black;">
+        <th style="width: 30%; border: 1px solid black; padding: 8px;">
             Objetivo
         </th>
-        <th colspan="4" style="border: 1px solid black;">
+        <th colspan="4" style="border: 1px solid black; padding: 8px;">
             Verificar se os itens buscados serão precisos
         </th>
     </tr>
     <tr>
-        <th style="width: 30%; border: 1px solid black;">
+        <th style="width: 30%; border: 1px solid black; padding: 8px;">
             Método de execução
         </th>
-        <th colspan="2" style="width: 20%; border: 1px solid black;">
+        <th colspan="2" style="width: 20%; border: 1px solid black; padding: 8px;">
             ( ) manual
         </th>
-        <th colspan="2" style="width: 20%; border: 1px solid black;">
+        <th colspan="2" style="width: 20%; border: 1px solid black; padding: 8px;">
             (x) automática
         </th>
     </tr>
     <tr>
-        <th style="width: 30%; border: 1px solid black;">
+        <th style="width: 30%; border: 1px solid black; padding: 8px;">
             Nível de Teste
         </th>
-        <th style="width: 20%; border: 1px solid black;">
+        <th style="width: 20%; border: 1px solid black; padding: 8px;">
             Integração ( )
         </th>
-        <th style="width: 20%; border: 1px solid black;">
+        <th style="width: 20%; border: 1px solid black; padding: 8px;">
             Sistema (x)
         </th>
-        <th style="width: 20%; border: 1px solid black;">
+        <th style="width: 20%; border: 1px solid black; padding: 8px;">
             Unidade ( )
         </th>
     </tr>
     <tr>
-        <th style="width: 30%; border: 1px solid black;">
+        <th style="width: 30%; border: 1px solid black; padding: 8px;">
             Técnica
         </th>
-        <th colspan="2" style="width: 20%; border: 1px solid black;">
+        <th colspan="2" style="width: 20%; border: 1px solid black; padding: 8px;">
             Estrutural ( )
         </th>
-        <th colspan="2" style="width: 20%; border: 1px solid black;">
+        <th colspan="2" style="width: 20%; border: 1px solid black; padding: 8px;">
             Funcional (x)
         </th>
     </tr>
     <tr>
-        <th style="width: 30%; border: 1px solid black;">
+        <th style="width: 30%; border: 1px solid black; padding: 8px;">
             Responsável(is)
         </th>
-        <th colspan="4" style="border: 1px solid black;">
+        <th colspan="4" style="border: 1px solid black; padding: 8px;">
             João Victor Piumbini Cheroto
         </th>
     </tr>
