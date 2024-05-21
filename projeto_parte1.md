@@ -170,56 +170,56 @@ Após conduzirmos os testes da barra de busca de itens, documentamos nossas desc
 O Exploratory Testing nos permitiu identificar potenciais problemas na barra de busca de itens do site da Casa & Video. Essa abordagem flexível é baseada na experiência e será essencial para garantir a qualidade e a usabilidade do sistema, contribuindo para uma melhor experiência do usuário e maior satisfação ao realizar buscas por produtos no site.
 
 <br/>
-<table style="width: 70%;">
+<table style="width: 70%; border-collapse: collapse;">
     <tr>
-        <th style="width: 30%;">
+        <th style="width: 30%; border: 1px solid black;">
             Objetivo
         </th>
-        <th colspan="4">
+        <th colspan="4" style="border: 1px solid black;">
             Verificar se os itens buscados serão precisos
         </th>
     </tr>
     <tr>
-        <th style="width: 30%;">
+        <th style="width: 30%; border: 1px solid black;">
             Método de execução
         </th>
-        <th colspan="2" style="width: 20%;">
+        <th colspan="2" style="width: 20%; border: 1px solid black;">
             ( ) manual
         </th>
-        <th colspan="2" style="width: 20%;">
+        <th colspan="2" style="width: 20%; border: 1px solid black;">
             (x) automática
         </th>
     </tr>
     <tr>
-        <th style="width: 30%;">
+        <th style="width: 30%; border: 1px solid black;">
             Nível de Teste
         </th>
-        <th style="width: 20%;">
+        <th style="width: 20%; border: 1px solid black;">
             Integração ( )
         </th>
-        <th style="width: 20%;">
+        <th style="width: 20%; border: 1px solid black;">
             Sistema (x)
         </th>
-        <th style="width: 20%;">
+        <th style="width: 20%; border: 1px solid black;">
             Unidade ( )
         </th>
     </tr>
     <tr>
-        <th style="width: 30%;">
+        <th style="width: 30%; border: 1px solid black;">
             Técnica
         </th>
-        <th colspan="2" style="width: 20%;">
+        <th colspan="2" style="width: 20%; border: 1px solid black;">
             Estrutural ( )
         </th>
-        <th colspan="2" style="width: 20%;">
+        <th colspan="2" style="width: 20%; border: 1px solid black;">
             Funcional (x)
         </th>
     </tr>
     <tr>
-        <th style="width: 30%;">
+        <th style="width: 30%; border: 1px solid black;">
             Responsável(is)
         </th>
-        <th colspan="4">
+        <th colspan="4" style="border: 1px solid black;">
             João Victor Piumbini Cheroto
         </th>
     </tr>
