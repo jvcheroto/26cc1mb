@@ -345,9 +345,9 @@ Após a realização dos testes de unidade para o Cadastro de Usuário, document
 O teste de unidade do Cadastro de Usuário permite verificar a funcionalidade essencial do sistema, garantindo que os usuários possam se cadastrar com sucesso e receber confirmações por e-mail. Esta abordagem é crucial para garantir uma experiência de usuário fluida e confiável no site da Casa & Video.
 
 <br/>
-<table style="width: 70%; border-collapse: collapse; margin-bottom: 20px; border: 2px solid black;">
+<table style="width: 60%; border-collapse: collapse; margin-bottom: 20px; border: 2px solid black;">
     <tr style="line-height: 1;">
-        <th style="width: 30%; border: 1px solid black; padding: 8px;">
+        <th style="width: 20%; border: 1px solid black; padding: 8px;">
             Objetivo
         </th>
         <th colspan="4" style="border: 1px solid black; padding: 8px;">
@@ -355,7 +355,7 @@ O teste de unidade do Cadastro de Usuário permite verificar a funcionalidade es
         </th>
     </tr>
     <tr style="line-height: 1;">
-        <th style="width: 30%; border: 1px solid black; padding: 8px;">
+        <th style="width: 20%; border: 1px solid black; padding: 8px;">
             Método de execução
         </th>
         <th colspan="2" style="width: 20%; border: 1px solid black; padding: 8px;">
@@ -366,7 +366,7 @@ O teste de unidade do Cadastro de Usuário permite verificar a funcionalidade es
         </th>
     </tr>
     <tr style="line-height: 1;">
-        <th style="width: 30%; border: 1px solid black; padding: 8px;">
+        <th style="width: 20%; border: 1px solid black; padding: 8px;">
            Técnica
         </th>
         <th style="width: 20%; border: 1px solid black; padding: 8px;">
@@ -381,7 +381,7 @@ O teste de unidade do Cadastro de Usuário permite verificar a funcionalidade es
        
    </tr>
     <tr style="line-height: 1;">
-        <th style="width: 30%; border: 1px solid black; padding: 8px;">
+        <th style="width: 20%; border: 1px solid black; padding: 8px;">
             Abordagem do teste
         </th>
         <th colspan="2" style="width: 20%; border: 1px solid black; padding: 8px;">
@@ -392,7 +392,7 @@ O teste de unidade do Cadastro de Usuário permite verificar a funcionalidade es
         </th>
     </tr>
     <tr style="line-height: 1;">
-        <th style="width: 30%; border: 1px solid black; padding: 8px;">
+        <th style="width: 20%; border: 1px solid black; padding: 8px;">
             Responsável(is)
         </th>
         <th colspan="4" style="border: 1px solid black; padding: 8px;">
@@ -401,6 +401,7 @@ O teste de unidade do Cadastro de Usuário permite verificar a funcionalidade es
     </tr>
 </table>
 <br/>
+
 
 ### 3.5 - Requisito 5: Carrinho de Compras
 
