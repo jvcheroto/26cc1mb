@@ -344,10 +344,9 @@ Após a realização dos testes de unidade para o Cadastro de Usuário, document
 
 O teste de unidade do Cadastro de Usuário permite verificar a funcionalidade essencial do sistema, garantindo que os usuários possam se cadastrar com sucesso e receber confirmações por e-mail. Esta abordagem é crucial para garantir uma experiência de usuário fluida e confiável no site da Casa & Video.
 
-
 <br/>
 <table style="width: 70%; border-collapse: collapse; margin-bottom: 20px; border: 2px solid black;">
-    <tr>
+    <tr style="line-height: 1;">
         <th style="width: 30%; border: 1px solid black; padding: 8px;">
             Objetivo
         </th>
@@ -355,7 +354,7 @@ O teste de unidade do Cadastro de Usuário permite verificar a funcionalidade es
             Verificar se o sistema permite que os Usuários se cadastrem no site fornecendo informações como: Nome completo, endereço de e-mail, senha e informações de contato.
         </th>
     </tr>
-    <tr>
+    <tr style="line-height: 1;">
         <th style="width: 30%; border: 1px solid black; padding: 8px;">
             Método de execução
         </th>
@@ -366,7 +365,7 @@ O teste de unidade do Cadastro de Usuário permite verificar a funcionalidade es
             (x) automática
         </th>
     </tr>
-    <tr>
+    <tr style="line-height: 1;">
         <th style="width: 30%; border: 1px solid black; padding: 8px;">
            Técnica
         </th>
@@ -381,7 +380,7 @@ O teste de unidade do Cadastro de Usuário permite verificar a funcionalidade es
         </th>
        
    </tr>
-    <tr>
+    <tr style="line-height: 1;">
         <th style="width: 30%; border: 1px solid black; padding: 8px;">
             Abordagem do teste
         </th>
@@ -392,7 +391,7 @@ O teste de unidade do Cadastro de Usuário permite verificar a funcionalidade es
             Funcional (x)
         </th>
     </tr>
-    <tr>
+    <tr style="line-height: 1;">
         <th style="width: 30%; border: 1px solid black; padding: 8px;">
             Responsável(is)
         </th>
