@@ -260,59 +260,57 @@ Após identificarmos a presença do aspirador smart na categoria de TV e Smart T
 
 O teste de Exploratory Testing revelou uma discrepância significativa na ferramenta de itens por categoria do site da Casa & Video. Essa abordagem flexível e baseada na experiência nos permitiu identificar um problema potencial que pode afetar a usabilidade e a confiabilidade da plataforma. Essa descoberta destaca a importância de testes contínuos e abrangentes para garantir a qualidade do sistema.
 
-
 <br/>
-<table>
+<table style="width: 70%; border-collapse: collapse; margin-bottom: 20px; border: 2px solid black;">
     <tr>
-        <th>
+        <th style="width: 30%; border: 1px solid black; padding: 8px;">
             Objetivo
         </th>
-        <th colspan="4">
+        <th colspan="4" style="border: 1px solid black; padding: 8px;">
             Verificar se a ferramenta de itens por categoria exibe resultados precisos.
         </th>
     </tr>
     <tr>
-        <th>
+        <th style="width: 30%; border: 1px solid black; padding: 8px;">
             Método de execução
         </th>
-        <th colspan="2">
+        <th colspan="2" style="width: 20%; border: 1px solid black; padding: 8px;">
             ( ) manual
         </th>
-        <th colspan="2">
+        <th colspan="2" style="width: 20%; border: 1px solid black; padding: 8px;">
             (x) automática
         </th>
     </tr>
     <tr>
-        <th>
+        <th style="width: 30%; border: 1px solid black; padding: 8px;">
             Nível de Teste
         </th>
-        <th>
+        <th style="width: 20%; border: 1px solid black; padding: 8px;">
             Integração ( )
         </th>
-        <th>
+        <th style="width: 20%; border: 1px solid black; padding: 8px;">
             Sistema ( )
         </th>
-        <th>
+        <th style="width: 20%; border: 1px solid black; padding: 8px;">
             Unidade ( )
         </th>
-       
-   </tr>
+    </tr>
     <tr>
-        <th>
+        <th style="width: 30%; border: 1px solid black; padding: 8px;">
             Técnica
         </th>
-        <th colspan="2">
+        <th colspan="2" style="width: 20%; border: 1px solid black; padding: 8px;">
             Estrutural ( )
         </th>
-        <th colspan="2">
+        <th colspan="2" style="width: 20%; border: 1px solid black; padding: 8px;">
             Funcional (x)
         </th>
     </tr>
     <tr>
-        <th>
+        <th style="width: 30%; border: 1px solid black; padding: 8px;">
             Responsável(is)
         </th>
-        <th colspan="4">
+        <th colspan="4" style="border: 1px solid black; padding: 8px;">
             Luiz Fernando Sacht
         </th>
     </tr>
@@ -348,63 +346,62 @@ O teste de unidade do Cadastro de Usuário permite verificar a funcionalidade es
 
 
 <br/>
-<table>
+<table style="width: 70%; border-collapse: collapse; margin-bottom: 20px; border: 2px solid black;">
     <tr>
-        <th>
+        <th style="width: 30%; border: 1px solid black; padding: 8px;">
             Objetivo
         </th>
-        <th colspan="4">
+        <th colspan="4" style="border: 1px solid black; padding: 8px;">
             Verificar se o sistema permite que os Usuários se cadastrem no site fornecendo informações como: Nome completo, endereço de e-mail, senha e informações de contato.
         </th>
     </tr>
     <tr>
-        <th>
+        <th style="width: 30%; border: 1px solid black; padding: 8px;">
             Método de execução
         </th>
-        <th colspan="2">
+        <th colspan="2" style="width: 20%; border: 1px solid black; padding: 8px;">
             ( ) manual
         </th>
-        <th colspan="2">
+        <th colspan="2" style="width: 20%; border: 1px solid black; padding: 8px;">
             (x) automática
         </th>
     </tr>
     <tr>
-        <th>
+        <th style="width: 30%; border: 1px solid black; padding: 8px;">
            Técnica
         </th>
-        <th>
+        <th style="width: 20%; border: 1px solid black; padding: 8px;">
             Integração ( )
         </th>
-        <th>
+        <th style="width: 20%; border: 1px solid black; padding: 8px;">
             Sistema ( )
         </th>
-        <th>
+        <th style="width: 20%; border: 1px solid black; padding: 8px;">
             Unidade (x)
         </th>
        
    </tr>
     <tr>
-        <th>
+        <th style="width: 30%; border: 1px solid black; padding: 8px;">
             Abordagem do teste
         </th>
-        <th colspan="2">
+        <th colspan="2" style="width: 20%; border: 1px solid black; padding: 8px;">
             Estrutural ( )
         </th>
-        <th colspan="2">
+        <th colspan="2" style="width: 20%; border: 1px solid black; padding: 8px;">
             Funcional (x)
         </th>
     </tr>
     <tr>
-        <th>
+        <th style="width: 30%; border: 1px solid black; padding: 8px;">
             Responsável(is)
         </th>
-        <th colspan="4">
+        <th colspan="4" style="border: 1px solid black; padding: 8px;">
             Rodrigo da Cunha
         </th>
     </tr>
 </table>
 <br/>
-
 
 ### 3.5 - Requisito 5: Carrinho de Compras
 
@@ -437,60 +434,58 @@ Após realizar o teste de aceitação do Carrinho de Compras, documentamos nossa
 
 O teste de aceitação do Carrinho de Compras revelou uma limitação na funcionalidade de adição de produtos no site da Casa & Video. A implementação de melhorias sugeridas pode ajudar a otimizar a experiência do usuário, proporcionando uma navegação mais fluida e eficiente durante o processo de compra.
 
-
-
 <br/>
-<table>
+<table style="width: 70%; border-collapse: collapse; margin-bottom: 20px; border: 2px solid black;">
     <tr>
-        <th>
+        <th style="width: 30%; border: 1px solid black; padding: 8px;">
             Objetivo
         </th>
-        <th colspan="4">
+        <th colspan="4" style="border: 1px solid black; padding: 8px;">
             Verificar se o sistema permite que os Usuários se cadastrem no site fornecendo informações como: Nome completo, endereço de e-mail, senha e informações de contato.
         </th>
     </tr>
     <tr>
-        <th>
+        <th style="width: 30%; border: 1px solid black; padding: 8px;">
            Método de execução
         </th>
-        <th colspan="2">
+        <th colspan="2" style="width: 20%; border: 1px solid black; padding: 8px;">
             ( ) manual
         </th>
-        <th colspan="2">
+        <th colspan="2" style="width: 20%; border: 1px solid black; padding: 8px;">
             (x) automática
         </th>
     </tr>
     <tr>
-        <th>
+        <th style="width: 30%; border: 1px solid black; padding: 8px;">
             Nível de Teste
         </th>
-        <th>
+        <th style="width: 20%; border: 1px solid black; padding: 8px;">
             Integração ( )
         </th>
-        <th>
+        <th style="width: 20%; border: 1px solid black; padding: 8px;">
             Sistema ( )
         </th>
-        <th>
+        <th style="width: 20%; border: 1px solid black; padding: 8px;">
             Unidade (x)
         </th>
        
    </tr>
     <tr>
-        <th>
+        <th style="width: 30%; border: 1px solid black; padding: 8px;">
             Técnica
         </th>
-        <th colspan="2">
+        <th colspan="2" style="width: 20%; border: 1px solid black; padding: 8px;">
             Estrutural ( )
         </th>
-        <th colspan="2">
+        <th colspan="2" style="width: 20%; border: 1px solid black; padding: 8px;">
             Funcional (x)
         </th>
     </tr>
     <tr>
-        <th>
+        <th style="width: 30%; border: 1px solid black; padding: 8px;">
             Responsável(is)
         </th>
-        <th colspan="4">
+        <th colspan="4" style="border: 1px solid black; padding: 8px;">
             Rodrigo da Cunha
         </th>
     </tr>
@@ -537,57 +532,57 @@ Após identificarmos as inconsistências na exibição dos itens fora de estoque
 O teste de Disponibilidade de Produtos revelou áreas de melhoria no sistema da Casa & Video relacionadas à gestão de itens fora de estoque. Ao abordar essas questões, podemos garantir uma experiência de compra mais confiável e satisfatória para os usuários, fortalecendo a reputação da marca e aumentando a fidelidade do cliente.
 
 <br/>
-<table>
+<table style="width: 70%; border-collapse: collapse; margin-bottom: 20px; border: 2px solid black;">
     <tr>
-        <th>
+        <th style="width: 30%; border: 1px solid black; padding: 8px;">
             Objetivo
         </th>
-        <th colspan="4">
+        <th colspan="4" style="border: 1px solid black; padding: 8px;">
             Verificar se o sistema exibe corretamente a indisponibilidade de produtos e sua remoção das categorias e resultados de busca.
         </th>
     </tr>
     <tr>
-        <th>
+        <th style="width: 30%; border: 1px solid black; padding: 8px;">
             Método de execução
         </th>
-        <th colspan="2">
+        <th colspan="2" style="width: 20%; border: 1px solid black; padding: 8px;">
             ( ) manual
         </th>
-        <th colspan="2">
+        <th colspan="2" style="width: 20%; border: 1px solid black; padding: 8px;">
             (x) automática
         </th>
     </tr>
     <tr>
-        <th>
+        <th style="width: 30%; border: 1px solid black; padding: 8px;">
             Nível de Teste
         </th>
-        <th>
+        <th style="width: 20%; border: 1px solid black; padding: 8px;">
             Integração ( )
         </th>
-        <th>
+        <th style="width: 20%; border: 1px solid black; padding: 8px;">
             Sistema ( )
         </th>
-        <th>
+        <th style="width: 20%; border: 1px solid black; padding: 8px;">
             Unidade (x)
         </th>
         
    </tr>
     <tr>
-        <th>
+        <th style="width: 30%; border: 1px solid black; padding: 8px;">
             Técnica
         </th>
-        <th colspan="2">
+        <th colspan="2" style="width: 20%; border: 1px solid black; padding: 8px;">
             Estrutural ( )
         </th>
-        <th colspan="2">
-            Funcional  (x)
+        <th colspan="2" style="width: 20%; border: 1px solid black; padding: 8px;">
+            Funcional (x)
         </th>
     </tr>
     <tr>
-        <th>
+        <th style="width: 30%; border: 1px solid black; padding: 8px;">
             Responsável(is)
         </th>
-        <th colspan="4">
+        <th colspan="4" style="border: 1px solid black; padding: 8px;">
             Luiz Fernando Sacht
         </th>
     </tr>
