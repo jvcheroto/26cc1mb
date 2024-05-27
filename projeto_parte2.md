@@ -24,7 +24,7 @@
 
 
 ## RF002: Carrinho de Compras
-- **Cenário de Teste 01: Adicionar produtos ao carrinho**
+- **Cenário de Teste 01: Teste ao adicionar produtos ao carrinho**
   - CT01: [Produto: "TV 40 Polegadas", Quantidade: 1, Resultado Esperado: Produto adicionado ao carrinho com sucesso]
   - CT02: [Produto: "Notebook 15 Polegadas", Quantidade: 1, Resultado Esperado: Produto adicionado ao carrinho com sucesso]
 
@@ -33,11 +33,11 @@
   - CT01 [Produto: "TV 40 Polegadas", Quantidade Inicial: 1, Quantidade Editada: 2, Resultado Esperado: Quantidade de produtos atualizada no carrinho]
   - CT02: [Produto: "Notebook 15 Polegadas", Quantidade Inicial: 1, Quantidade Editada: 3, Resultado Esperado: Quantidade de produtos atualizada no carrinho]
 
-- **Cenário de Teste 03: Remover itens do carrinho**
+- **Cenário de Teste 03: Teste de remover itens do carrinho**
   - CT01: [Produto: "TV 40 Polegadas", Ação: Remover, Resultado Esperado: Produto removido do carrinho]
   - CT02: [Produto: "Notebook 15 Polegadas", Ação: Remover, Resultado Esperado: Produto removido do carrinho]
 
-- **Cenário de Teste 04: Proceder para o checkout**
+- **Cenário de Teste 04: Teste de continuar para o checkout**
   - CT01: [Itens no Carrinho: "TV 40 Polegadas" (2), "Notebook 15 Polegadas" (1), Resultado Esperado: Usuário redirecionado para a página de checkout com os itens corretos e resumo do pedido]
 
 ## RF003:  Exibição Correta do Catálogo de Produtos
@@ -45,20 +45,20 @@
   - CT01: [Dado de Entrada: Acesso à categoria "Televisões e Smart TVs". Resultado Esperado: Exibição de produtos apenas da categoria "Televisões e Smart TVs".]
   - CT02: [Dado de Entrada: Navegação dentro da categoria "Televisões e Smart TVs". Resultado Esperado: Não deve haver produtos de outras categorias, como aspiradores de pó.]
 
-- **Cenário de Teste 02: Indicação de Produtos Indisponíveis**
+- **Cenário de Teste 02: Teste para indentificar de Produtos que estão Indisponíveis**
   - CT01: [Dado de Entrada: Produto marcado como indisponível no sistema. Resultado Esperado: Exibição de uma mensagem clara indicando que o produto está indisponível para compra.]
   - CT02: [Dado de Entrada: Busca por um produto que está indisponível. Resultado Esperado: Produto deve aparecer na busca com uma indicação de indisponibilidade.]
 
 # 2 - Requisitos Não Funcionais (RNF):
 
-## RNF01: Desempenho de Carregamento de Páginas
+## RNF01: Teste de desempenho de Carregamento de Páginas
 - **Cenário de Teste 01: Teste de desempenho de carregamento do catálogo de produtos**
   - CT 01: [Dado de Entrada: Acesso ao catálogo de produtos. Resultado Esperado: A página deve carregar em no máximo 2 segundos.]
 
 - **Cenário de Teste 02: Verificação da integridade e segurança dos dados dos produtos**
   - CT 01: [Dado de Entrada: Tentativa de alteração não autorizada dos dados de um produto. Resultado Esperado: O sistema deve prevenir alterações não autorizadas e garantir a segurança dos dados.]
 
-- **Cenário de Teste 03: Navegadores distintos**
+- **Cenário de Teste 03: Teste para navegadores distintos**
   - CT 01: [Fazer o mesmo login em navegadores distintos], [Mantém a mesma conta logada nos diferentes navegadores]
   - CT 02: [Abrir outro cliente em um navegador diferente], [A sessão anterior no primeiro navegador não é atrapalhada]
   - CT 03: [Abrir o mesmo cliente ou outro cliente em uma guia anônima], [Não interrompe nem atrapalha a navegação no primeiro navagador]
