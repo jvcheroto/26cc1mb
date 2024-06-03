@@ -51,6 +51,7 @@
 - **Cenário de teste:** Testar se é possivel editar a quantidade de produtos no carrinho
 - **Resultado obtido:** Ao adicionar mais quantidades do mesmo produto ocorre um bug no carrinho. Ele automaticamente adiciona o mesmo produto novamente no carrinho, ou seja, existem 2 PS5 no carrinho sendo um deles com quantidade 5 e outro com 1 somente.
 - **Status:** Falhou
+![Bug de duplicidade do produto](https://i.imgur.com/8MTwi87.jpeg)
 
 ### Teste 07
 
