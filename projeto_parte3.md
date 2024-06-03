@@ -10,6 +10,7 @@
 - **Cenário de teste:** Cadastro de conta usando dados válidos
 - **Resultado obtido:** O site realizou o cadastro com sucesso, porém não foi mostrada uma mensagem de cadastro realizado com sucesso.
 - **Status:** Passou
+- **Nível de criticidade:** Alta
 ![Print da tela01](https://i.imgur.com/ZhEApu9.jpeg)
 
 ### Teste 02
@@ -18,6 +19,7 @@
 - **Cenário de teste:** Cadastro de conta usando um e-mail falso
 - **Resultado obtido:** Usando o email falso: exemplo@mail.com, o site entende como um email existente.
 - **Status:** Falhou
+- **Nível de criticidade:** Alta
 ![Criação da conta pelo email falso](https://i.imgur.com/fJnnpWK.png)
 
 
@@ -51,6 +53,7 @@
 - **Cenário de teste:** Testar se é possivel editar a quantidade de produtos no carrinho
 - **Resultado obtido:** Ao adicionar mais quantidades do mesmo produto ocorre um bug no carrinho. Ele automaticamente adiciona o mesmo produto novamente no carrinho, ou seja, existem 2 PS5 no carrinho sendo um deles com quantidade 5 e outro com 1 somente.
 - **Status:** Falhou
+- **Nível de criticidade:** Média
 ![Bug de duplicidade do produto](https://i.imgur.com/8MTwi87.jpeg)
 
 ### Teste 07
@@ -59,6 +62,7 @@
 - **Cenário de teste:** Testar se é possivel retirar produtos do carrinho
 - **Resultado obtido:** A função de remover o produto não está operando corretamente após a ocorrência do bug anterior. O produto duplicado permanece no carrinho, enquanto a remoção é aplicada apenas a um dos cinco outros consoles PS5. No entanto, quando a quantidade é reduzida para 1, tanto o produto duplicado quanto o original não são removidos do carrinho.
 - **Status:** Falhou
+- **Nível de criticidade:** Média
 ![Bug de excluir o produto](https://i.imgur.com/a77UlGd.png)
 
 ### Teste 08
@@ -74,6 +78,7 @@
 - **Cenário de teste:** Verificar se o site apresenta o Catálogo correto de Produtos
 - **Resultado obtido:** Ao realizar o teste, observou-se que na categoria de SMART TV, um produto denominado 'SMART' não corresponde a uma TV, mas sim a um aspirador.
 - **Status:** Falhou
+- **Nível de criticidade:** Baixa
 ![Texto Alternativo](https://i.imgur.com/VZ3GFoj.jpeg)
 
 ### Teste 10
