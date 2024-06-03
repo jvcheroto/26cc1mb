@@ -79,13 +79,6 @@
 ### Teste 10
 
 - **Nome do requisito:** Exibição Correta do Catálogo de Produtos
-- **Cenário de teste:** Verificar se o site apresenta o Catálogo correto de Produtos
-- **Resultado obtido:** Ao realizar o teste, observou-se que na categoria de SMART TV, um produto denominado 'SMART' não corresponde a uma TV, mas sim a um aspirador.
-- **Status:** Falhou
-
-### Teste 11
-
-- **Nome do requisito:** Exibição Correta do Catálogo de Produtos
 - **Cenário de teste:** Verificar se o site identifica corretamente os produtos disponiveis dos indisponiveis 
 - **Resultado obtido:** Ao realizar o teste, foi constatado que todos os produtos exibidos no site estão disponíveis em estoque. No entanto, o sistema não apresenta os produtos fora de estoque, deixando de exibir a mensagem ou observação "Fora de estoque". Isso resulta na visualização apenas dos produtos que estão atualmente em estoque no catálogo.
 - **Status:** Passou
