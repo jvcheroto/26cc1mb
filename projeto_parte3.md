@@ -88,6 +88,12 @@
 - **Resultado obtido:** Ao realizar o teste, foi constatado que todos os produtos exibidos no site estão disponíveis em estoque. No entanto, o sistema não apresenta os produtos fora de estoque, deixando de exibir a mensagem ou observação "Fora de estoque". Isso resulta na visualização apenas dos produtos que estão atualmente em estoque no catálogo.
 - **Status:** Passou
 
+### Teste 11
+
+- **Nome do requisito:** Produtos com desconto
+- **Cenário de teste:** Verificar se o site apresenta o desconto correto do produto dentro do carrinho 
+- **Resultado obtido:** Ao clicar em um produto promovido com desconto no site, a exibição dos preços, tanto antes quanto depois de adicioná-lo ao carrinho, é correta e reflete com precisão os valores promocionais.
+- **Status:** Passou
 # 2 - Componentes:
 
 | Aluno                        | Professora                | Turma | Disciplina                     |
