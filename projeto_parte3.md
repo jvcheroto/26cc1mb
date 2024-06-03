@@ -20,3 +20,10 @@
 - **Cenário de teste:** Cadastro com senha que não correspondem
 - **Resultado obtido:** Usando uma senha diferente da outra o site passa a seguinte mensagem: confirmação de senha incorreta. 
 - **Status:** Passou
+
+### Caso de Teste 04
+
+- **Nome do requisito:** Cadastro de usuário
+- **Cenário de teste:** Cadastro com senha "fraca"
+- **Resultado obtido:** O site possui um sistema de validação de senha e por isso não autoriza a criação de contas quando as senhas não preenchem os requisitos de senha "forte".
+- **Status:** Passou
