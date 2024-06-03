@@ -40,7 +40,7 @@
 - **Cenário de Teste 04: Teste de continuar para o checkout**
   - CT01: [Itens no Carrinho: "TV 40 Polegadas" (2), "Notebook 15 Polegadas" (1), Resultado Esperado: Usuário redirecionado para a página de checkout com os itens corretos e resumo do pedido]
 
-## RF003:  Exibição Correta do Catálogo de Produtos
+## RF003:  Catálogo de produtos
 - **Cenário de Teste 01: Verificação da Exibição Correta do Catálogo de Produtos**
   - CT01: [Dado de Entrada: Acesso à categoria "Televisões e Smart TVs". Resultado Esperado: Exibição de produtos apenas da categoria "Televisões e Smart TVs".]
   - CT02: [Dado de Entrada: Navegação dentro da categoria "Televisões e Smart TVs". Resultado Esperado: Não deve haver produtos de outras categorias, como aspiradores de pó.]
@@ -49,7 +49,7 @@
   - CT01: [Dado de Entrada: Produto marcado como indisponível no sistema. Resultado Esperado: Exibição de uma mensagem clara indicando que o produto está indisponível para compra.]
   - CT02: [Dado de Entrada: Busca por um produto que está indisponível. Resultado Esperado: Produto deve aparecer na busca com uma indicação de indisponibilidade.]
 
-## RF004: Exibição Correta dos Produtos em Promoção no Catálogo
+## RF004: Produtos com Descontos no Site
 
 - **Cenário de Teste 01: Verificação da Exibição dos Produtos em Promoção**
   - CT01: [Dado de Entrada: Acesso à seção de produtos em promoção. Resultado Esperado: Exibição apenas dos produtos que estão em promoção.]
