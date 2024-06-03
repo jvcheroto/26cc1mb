@@ -11,7 +11,7 @@
 - **Resultado obtido:** O site realizou o cadastro com sucesso, porém não foi mostrada uma mensagem de cadastro realizado com sucesso.
 - **Status:** Passou
 
-![Texto Alternativo](https://i.imgur.com/ZhEApu9.jpeg)
+![Print da tela01](https://i.imgur.com/ZhEApu9.jpeg)
 
 ### Teste 02
 
