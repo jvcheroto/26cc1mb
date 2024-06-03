@@ -441,7 +441,7 @@ O teste de aceitação do Carrinho de Compras revelou uma limitação na funcion
             Objetivo
         </th>
         <th colspan="4" style="border: 1px solid black; padding: 8px;">
-            Verificar se o sistema permite que os Usuários se cadastrem no site fornecendo informações como: Nome completo, endereço de e-mail, senha e informações de contato.
+            Verificar se o sistema permite que os usuários adicionem produtos ao carrinho a partir da lista de resultados de busca.
         </th>
     </tr>
     <tr>
