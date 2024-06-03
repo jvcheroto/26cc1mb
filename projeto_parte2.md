@@ -55,12 +55,6 @@
   - CT01: [Dado de Entrada: Acesso à seção de produtos em promoção. Resultado Esperado: Exibição apenas dos produtos que estão em promoção.]
   - CT02: [Dado de Entrada: Verificação da quantidade de produtos exibidos em promoção. Resultado Esperado: A quantidade de produtos exibidos corresponde à quantidade real de produtos em promoção no sistema.]
 
-## RF004: Exibição Correta dos Produtos em Promoção no Catálogo
-
-- **Cenário de Teste 01: Verificação da Exibição dos Produtos em Promoção**
-  - CT01: [Dado de Entrada: Acesso à seção de produtos em promoção. Resultado Esperado: Exibição apenas dos produtos que estão em promoção.]
-  - CT02: [Dado de Entrada: Verificação da quantidade de produtos exibidos em promoção. Resultado Esperado: A quantidade de produtos exibidos corresponde à quantidade real de produtos em promoção no sistema.]
-
 - **Cenário de Teste 02: Verificação dos Descontos Aplicados no Carrinho**
   - CT03: [Dado de Entrada: Adição de produtos em promoção ao carrinho. Resultado Esperado: Os descontos correspondentes devem ser aplicados corretamente ao total do carrinho.]
   - CT04: [Dado de Entrada: Verificação dos detalhes do carrinho após a aplicação dos descontos. Resultado Esperado: O valor total do carrinho reflete os descontos aplicados nos produtos em promoção.]
