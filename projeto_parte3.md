@@ -27,6 +27,7 @@
 - **Cenário de teste:** Cadastro com senha que não correspondem
 - **Resultado obtido:** Usando uma senha diferente da outra o site passa a seguinte mensagem: confirmação de senha incorreta. 
 - **Status:** Passou
+![Senhas que não correspondem](https://imgur.com/e3d9d9ab-402e-4491-b121-1adfb214cba7)
 
 ### Teste 04
 
