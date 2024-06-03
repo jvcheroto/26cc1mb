@@ -36,6 +36,7 @@
 - **Cenário de teste:** Cadastro com senha "fraca"
 - **Resultado obtido:** O site possui um sistema de validação de senha e por isso não autoriza a criação de contas quando as senhas não preenchem os requisitos de senha "forte".
 - **Status:** Passou
+![Senha "fraca"](https://i.imgur.com/5SIwaah.png)
 
 ### Teste 05
 
