@@ -1,4 +1,4 @@
-# Relatório de Testes - Site Casa & Vídeo
+# Template de Reporte dos Testes - Site Casa & Vídeo
 
 - **Data da identificação:** 09/05/2024
 - **Navegador utilizado:** Google Chrome
