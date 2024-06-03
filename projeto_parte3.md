@@ -46,5 +46,5 @@
 
 - **Nome do requisito:** Carrinho de compras 
 - **Cenário de teste:** Testar se é possivel retirar produtos do carrinho
-- **Resultado obtido:** A função de retirar o produto não funciona corretamente quando ocorre o bug anterior. O produto duplicado permanece no carinho e o que é retirado é 1 dos 5 outros PS5.
+- **Resultado obtido:** A função de retirar o produto não funciona corretamente quando ocorre o bug anterior. O produto duplicado permanece no carinho e o que é retirado é 1 dos 5 outros PS5, porém quando a quantidade retorno para 1 tanto o produto duplicado quanto o original não são excluidos do carrinho.
 - **Status:** Falhou
