@@ -18,6 +18,8 @@
 - **Cenário de teste:** Cadastro de conta usando um e-mail falso
 - **Resultado obtido:** Usando o email falso: exemplo@mail.com, o site entende como um email existente.
 - **Status:** Falhou
+![Criação da conta pelo email falso](https://i.imgur.com/fJnnpWK.png)
+
 
 ### Teste 03
 
