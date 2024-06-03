@@ -1,4 +1,4 @@
-# Template de Reporte dos Testes - Site Casa & Vídeo
+# 1- Template de Reporte dos Testes 
 
 - **Data da identificação:** 09/05/2024
 - **Navegador utilizado:** Google Chrome
@@ -82,3 +82,11 @@
 - **Cenário de teste:** Verificar se o site identifica corretamente os produtos disponiveis dos indisponiveis 
 - **Resultado obtido:** Ao realizar o teste, foi constatado que todos os produtos exibidos no site estão disponíveis em estoque. No entanto, o sistema não apresenta os produtos fora de estoque, deixando de exibir a mensagem ou observação "Fora de estoque". Isso resulta na visualização apenas dos produtos que estão atualmente em estoque no catálogo.
 - **Status:** Passou
+
+# 2 - Componentes:
+
+| Aluno                        | Professora                | Turma | Disciplina                     |
+| ---------------------------- | ------------------------- | ----- | ------------------------------ |
+| João Victor Piumbini Cheroto | Gabriela Martins de Jesus | CC5N  | Qualidade e Testes de Software |
+| Rodrigo da Cunha             | Gabriela Martins de Jesus | CC5N  | Qualidade e Testes de Software |
+| Luiz Fernando Sacht          | Gabriela Martins de Jesus | CC5N  | Qualidade e Testes de Software |
