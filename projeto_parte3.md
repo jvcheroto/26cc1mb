@@ -13,3 +13,10 @@
 - **Cenário de teste:** Cadastro de conta usando um e-mail falso
 - **Resultado obtido:** Usando o email falso: exemplo@mail.com, o site entende como um email existente.
 - **Status:** Falhou
+
+### Caso de Teste 03
+
+- **Nome do requisito:** Cadastro de usuário
+- **Cenário de teste:** Cadastro com senha que não correspondem
+- **Resultado obtido:** Usando uma senha diferente da outra o site passa a seguinte mensagem: confirmação de senha incorreta. 
+- **Status:** Passou
