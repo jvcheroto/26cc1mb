@@ -49,6 +49,17 @@
   - CT01: [Dado de Entrada: Produto marcado como indisponível no sistema. Resultado Esperado: Exibição de uma mensagem clara indicando que o produto está indisponível para compra.]
   - CT02: [Dado de Entrada: Busca por um produto que está indisponível. Resultado Esperado: Produto deve aparecer na busca com uma indicação de indisponibilidade.]
 
+## RF004: Exibição Correta dos Produtos em Promoção no Catálogo
+
+- **Cenário de Teste 01: Verificação da Exibição dos Produtos em Promoção**
+  - CT01: [Dado de Entrada: Acesso à seção de produtos em promoção. Resultado Esperado: Exibição apenas dos produtos que estão em promoção.]
+  - CT02: [Dado de Entrada: Verificação da quantidade de produtos exibidos em promoção. Resultado Esperado: A quantidade de produtos exibidos corresponde à quantidade real de produtos em promoção no sistema.]
+
+- **Cenário de Teste 02: Navegação Dentro da Seção de Produtos em Promoção**
+  - CT03: [Dado de Entrada: Navegação dentro da seção de produtos em promoção. Resultado Esperado: Os produtos exibidos devem corresponder apenas à categoria de produtos em promoção.]
+  - CT04: [Dado de Entrada: Verificação dos detalhes de um produto em promoção. Resultado Esperado: Os detalhes exibidos devem corresponder às informações reais do produto em promoção selecionado.]
+
+
 # 2 - Componentes:
 
 | Aluno                        | Professora                | Turma | Disciplina                     |
