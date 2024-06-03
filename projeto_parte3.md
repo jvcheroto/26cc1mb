@@ -59,6 +59,7 @@
 - **Cenário de teste:** Testar se é possivel retirar produtos do carrinho
 - **Resultado obtido:** A função de remover o produto não está operando corretamente após a ocorrência do bug anterior. O produto duplicado permanece no carrinho, enquanto a remoção é aplicada apenas a um dos cinco outros consoles PS5. No entanto, quando a quantidade é reduzida para 1, tanto o produto duplicado quanto o original não são removidos do carrinho.
 - **Status:** Falhou
+![Bug de excluir o produto](https://i.imgur.com/a77UlGd.png)
 
 ### Teste 08
 
