@@ -1,8 +1,8 @@
 # Relatório de Testes - Site Casa & Vídeo
 
-- **Data da identificação: 09/05/2024
-- **Navegador utilizado: Google Chrome
-- **Ambiente: Usuário/Cliente do site Casa & Vídeo
+- **Data da identificação:** 09/05/2024
+- **Navegador utilizado:** Google Chrome
+- **Ambiente:** Usuário/Cliente do site Casa & Vídeo
 
 ### Teste 01
 
