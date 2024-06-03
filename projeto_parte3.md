@@ -1,4 +1,4 @@
-# 1- Template de Reporte dos Testes 
+# 1 - Template de Reporte dos Testes 
 
 - **Data da identificação:** 09/05/2024
 - **Navegador utilizado:** Google Chrome
