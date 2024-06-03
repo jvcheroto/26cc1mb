@@ -67,7 +67,7 @@
 - **Cenário de teste:** Verificar se o site apresenta o Catálogo correto de Produtos
 - **Resultado obtido:** Ao realizar o teste, observou-se que na categoria de SMART TV, um produto denominado 'SMART' não corresponde a uma TV, mas sim a um aspirador.
 - **Status:** Falhou
-![Texto Alternativo]((https://i.imgur.com/VZ3GFoj.jpeg))
+![Texto Alternativo](https://i.imgur.com/VZ3GFoj.jpeg)
 
 ### Teste 10
 
