@@ -10,7 +10,6 @@
 - **Cenário de teste:** Cadastro de conta usando dados válidos
 - **Resultado obtido:** O site realizou o cadastro com sucesso, porém não foi mostrada uma mensagem de cadastro realizado com sucesso.
 - **Status:** Passou
-- **Nível de criticidade:** Alta
 ![Print da tela01](https://i.imgur.com/ZhEApu9.jpeg)
 
 ### Teste 02
